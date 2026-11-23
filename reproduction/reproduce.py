@@ -11,8 +11,8 @@ and from the committed industry return file.  Run from the repository root:
 
 Outputs
     reproduction/results/*.csv, reproduction/results/numbers.json
-    paper/generated/numbers.tex   (LaTeX macros used in the text)
-    paper/generated/*.tex         (tables)
+    reproduction/results/latex/numbers.tex  (LaTeX macros; copied into paper/main.tex)
+    reproduction/results/latex/*.tex        (tables; copied into paper/main.tex)
     paper/figures/*.pdf
 """
 from __future__ import annotations
@@ -818,7 +818,7 @@ def fmt(x, d=3):
 
 
 def write_tables(out, mc, bt, snap, curves, nd):
-    g = out / "generated"
+    g = out / "latex"
     # Monte Carlo verification table
     groups = {"mp_m2": "Spectral moments and log-determinant",
               "mi_bias": "Spurious information",
@@ -920,7 +920,7 @@ def main():
     reps = 400 if args.quick else 4000
     res = Path(args.out)
     paper = Path(args.paper)
-    for d in (res, paper / "generated", paper / "figures"):
+    for d in (res, res / "latex", paper / "figures"):
         d.mkdir(parents=True, exist_ok=True)
 
     nums = {}
@@ -961,7 +961,7 @@ def main():
     fig_dyson(np.random.default_rng(15), paper / "figures" / "dyson.pdf")
     fig_theory(np.random.default_rng(16), paper / "figures" / "mp_family.pdf",
                paper / "figures" / "wachter.pdf", paper / "figures" / "theory_maps.pdf")
-    write_tables(paper, mc, bt, snap, curves, nd)
+    write_tables(res, mc, bt, snap, curves, nd)
 
     # ---------------- numbers used in the text
     N = R.shape[1]
@@ -1049,7 +1049,7 @@ def main():
     nums["MCRepsQuarter"] = f"{reps // 4:,}".replace(",", "{,}")
     nums["MCReps"] = f"{reps:,}".replace(",", "{,}")
 
-    write_macros(paper / "generated" / "numbers.tex", nums)
+    write_macros(res / "latex" / "numbers.tex", nums)
     (res / "numbers.json").write_text(json.dumps(nums, indent=1, default=str))
     print(json.dumps(nums, indent=1, default=str))
 

@@ -7,15 +7,15 @@ James K Rice, University of Essex — November 2026
 This repository contains the manuscript, data, reproduction code, simulation outputs and Lean 4 formalization for the paper. The paper develops the random matrix theory of Gaussian information functionals. It covers exact and proportional-regime laws for plug-in mutual information and Kullback–Leibler costs, a closed form for the logarithmic moment of the Wachter law, a canonical-correlation frontier for detectable information, an exact CARA–Gaussian value-of-information identity, and the informational sufficiency of Dyson eigenvalue dynamics. It applies these results to 36 years of daily returns on the 49 Fama–French industry portfolios.
 
 - Paper: [paper/main.pdf](paper/main.pdf) (51 pages)
-- Source: [paper/main.tex](paper/main.tex), [paper/sections/](paper/sections), [paper/references.bib](paper/references.bib)
+- Source: [paper/main.tex](paper/main.tex) (single self-contained file) and [paper/references.bib](paper/references.bib)
 - Verification record: [VERIFICATION.md](VERIFICATION.md)
 
 ## Layout
 
 | Path | Contents |
 | --- | --- |
-| `paper/` | LaTeX source, bibliography, compiled PDF and checked-in `main.bbl` |
-| `paper/generated/` | LaTeX macros (`numbers.tex`) and tables written by the reproduction script |
+| `paper/` | Single-file LaTeX source `main.tex`, bibliography, compiled PDF and checked-in `main.bbl` |
+| `reproduction/results/latex/` | LaTeX macros (`numbers.tex`) and tables written by the reproduction script; their contents are pasted into `main.tex` |
 | `paper/figures/` | All figures, written by the reproduction script |
 | `reproduction/reproduce.py` | Single script that produces every number, table and figure |
 | `reproduction/audit_bibliography.py` | Crossref audit of `references.bib` |
@@ -31,20 +31,20 @@ Python 3.11 with the pinned packages:
     python reproduction/reproduce.py            # full run, about 4 minutes
     python reproduction/reproduce.py --quick    # reduced Monte Carlo sizes
 
-The script regenerates `reproduction/results/*`, `paper/generated/*` and `paper/figures/*` from fixed seeds and the committed data file. No network access is needed. Last-digit differences in Monte Carlo quantities can occur across platforms and BLAS libraries.
+The script regenerates `reproduction/results/*` (including the LaTeX macros and tables in `reproduction/results/latex/`) and `paper/figures/*` from fixed seeds and the committed data file. `paper/main.tex` is a single self-contained file: the macros and tables are embedded in it, so after a rerun copy any changed values from `reproduction/results/latex/` into the marked blocks of `main.tex` (each block is delimited by `% ---- begin` / `% ---- end` comments naming its source). No network access is needed. Last-digit differences in Monte Carlo quantities can occur across platforms and BLAS libraries.
 
 | Output | Paper |
 | --- | --- |
-| `mc_checks.csv`, `generated/tab_mc.tex` | Table 1: Monte Carlo verification of all exact and limiting formulas |
+| `mc_checks.csv`, `latex/tab_mc.tex` | Table 1: Monte Carlo verification of all exact and limiting formulas |
 | `spurious_curve.csv`, `noise_dimensions.csv`, `figures/spurious.pdf` | Figure 5, Tables 6–7 |
 | `cca_phase.csv`, `figures/cca_phase.pdf` | Figure 6: canonical-correlation phase transition |
 | `figures/mp_family.pdf`, `figures/wachter.pdf`, `figures/theory_maps.pdf`, `figures/dyson.pdf` | Figures 1–4 |
 | `rolling_spectrum.csv`, `figures/rolling_spectrum.pdf`, `figures/mp_snapshot.pdf` | Figures 7–8 |
-| `bbp_snapshot_2025.csv`, `generated/tab_bbp.tex` | Table 2: BBP triage of 2025 eigenvalues |
-| `backtest.csv`, `generated/tab_backtest.tex` | Table 3: minimum-variance backtest |
+| `bbp_snapshot_2025.csv`, `latex/tab_bbp.tex` | Table 2: BBP triage of 2025 eigenvalues |
+| `backtest.csv`, `latex/tab_backtest.tex` | Table 3: minimum-variance backtest |
 | `rolling_mi.csv`, `figures/rolling_mi.pdf` | Figure 9: carbon-intensive/financial information linkage |
-| `generated/tab_practice.tex` | Table 5: look-up table of exact spurious information |
-| `numbers.json`, `generated/numbers.tex` | Every number quoted in the text |
+| `latex/tab_practice.tex` | Table 5: look-up table of exact spurious information |
+| `numbers.json`, `latex/numbers.tex` | Every number quoted in the text |
 
 ## Build the paper
 
