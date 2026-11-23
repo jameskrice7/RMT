@@ -1,0 +1,30 @@
+\begin{tabular}{lrrrr}
+\toprule
+Quantity & Exact or limit & Simulated & MC s.e. & Limit \\
+\midrule
+\multicolumn{5}{l}{\emph{Spectral moments and log-determinant}}\\[1pt]
+\quad $N^{-1}\E\tr S^2$ (exact) & 1.2525 & 1.2521 & 0.0003 & 1.2500 \\
+\quad $N^{-1}\E\tr S^3$ (exact) & 1.8219 & 1.8212 & 0.0007 & 1.8125 \\
+\quad $\E\log\det S-\log\det\Sigma$ (exact) & \ensuremath{-}13.8391 & \ensuremath{-}13.8515 & 0.0119 & \ensuremath{-}13.6954 \\
+\midrule
+\multicolumn{5}{l}{\emph{Spurious information}}\\[1pt]
+\quad $\E\hat I-I$, $(p,r,n)=(10,20,100)$ & 1.1904 & 1.1885 & 0.0037 & 1.1833 \\
+\quad $\E_0\hat I$ (independence) & 1.1904 & 1.1871 & 0.0019 & -- \\
+\quad $\Var_0\hat I$ (Wilks) & 0.0143 & 0.0140 & 0.0003 & 0.0141 \\
+\midrule
+\multicolumn{5}{l}{\emph{Information costs and portfolio risk}}\\[1pt]
+\quad $\E\KL(\N_\Sigma\|\N_S)$ & 1.5283 & 1.5320 & 0.0035 & 1.4257 \\
+\quad $\E\KL(\N_S\|\N_\Sigma)$ & 1.1299 & 1.1312 & 0.0018 & 1.0743 \\
+\quad $\E R_{\rm in}/R$ & 0.7550 & 0.7535 & 0.0014 & 0.7500 \\
+\quad $\E R_{\rm out}/R$ & 1.3267 & 1.3279 & 0.0012 & 1.3333 \\
+\midrule
+\multicolumn{5}{l}{\emph{Spiked covariance (BBP)}}\\[1pt]
+\quad BBP outlier, $\ell=2$ & 2.5000 & 2.5043 & 0.0031 & -- \\
+\quad BBP overlap$^2$, $\ell=2$ & 0.6000 & 0.5985 & 0.0022 & -- \\
+\quad BBP outlier, $\ell=4$ & 4.3333 & 4.3263 & 0.0071 & -- \\
+\quad BBP overlap$^2$, $\ell=4$ & 0.8974 & 0.8974 & 0.0004 & -- \\
+\midrule
+\multicolumn{5}{l}{\emph{Matrix Ornstein--Uhlenbeck dynamics}}\\[1pt]
+\quad matrix OU KL rate & 6.8750 & 6.9439 & 0.0873 & -- \\
+\bottomrule
+\end{tabular}

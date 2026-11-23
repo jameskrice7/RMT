@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+paper/*.aux
+paper/*.log
+paper/*.blg
+paper/*.out
+paper/*.toc
+paper/*.synctex.gz
+paper/*.fls
+paper/*.fdb_latexmk
+lean/.lake/
+regenerated/

@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use these materials, please cite the paper."
+title: "Spurious Information in Large Markets: Random Matrix Laws for Entropy, Mutual Information and the Value of Information"
+authors:
+  - family-names: Rice
+    given-names: James K
+    affiliation: University of Essex
+date-released: 2026-11-23
+repository-code: "https://github.com/jameskrice7/RMT"
+keywords:
+  - random matrix theory
+  - mutual information
+  - econophysics
+  - value of information
+  - Dyson Brownian motion

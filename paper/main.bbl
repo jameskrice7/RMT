@@ -1,0 +1,1134 @@
+\begin{thebibliography}{154}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Ahmed and Gokhale(1989)]{ahmed1989entropy}
+Nabil~Ali Ahmed and D.~V. Gokhale.
+\newblock Entropy expressions and their estimators for multivariate
+  distributions.
+\newblock \emph{IEEE Transactions on Information Theory}, 35\penalty0
+  (3):\penalty0 688--692, 1989.
+\newblock \doi{10.1109/18.30996}.
+
+\bibitem[Ahn and Horenstein(2013)]{ahn2013eigenvalue}
+Seung~C. Ahn and Alex~R. Horenstein.
+\newblock Eigenvalue ratio test for the number of factors.
+\newblock \emph{Econometrica}, 81\penalty0 (3):\penalty0 1203--1227, 2013.
+\newblock \doi{10.3982/ECTA8968}.
+
+\bibitem[A{\"\i}t-Sahalia and Xiu(2017)]{aitsahalia2017using}
+Yacine A{\"\i}t-Sahalia and Dacheng Xiu.
+\newblock Using principal component analysis to estimate a high dimensional
+  factor model with high-frequency data.
+\newblock \emph{Journal of Econometrics}, 201\penalty0 (2):\penalty0 384--399,
+  2017.
+\newblock \doi{10.1016/j.jeconom.2017.08.015}.
+
+\bibitem[Akemann et~al.(2011)Akemann, Baik, and
+  Di~Francesco]{akemann2011oxford}
+Gernot Akemann, Jinho Baik, and Philippe Di~Francesco, editors.
+\newblock \emph{The {O}xford Handbook of Random Matrix Theory}.
+\newblock Oxford University Press, Oxford, 2011.
+\newblock \doi{10.1093/oxfordhb/9780198744191.001.0001}.
+
+\bibitem[Akerlof(1970)]{akerlof1970market}
+George~A. Akerlof.
+\newblock The market for ``lemons'': Quality uncertainty and the market
+  mechanism.
+\newblock \emph{The Quarterly Journal of Economics}, 84\penalty0 (3):\penalty0
+  488--500, 1970.
+\newblock \doi{10.2307/1879431}.
+
+\bibitem[Allez and Bouchaud(2012)]{allez2012eigenvector}
+Romain Allez and Jean-Philippe Bouchaud.
+\newblock Eigenvector dynamics: General theory and some applications.
+\newblock \emph{Physical Review E}, 86\penalty0 (4):\penalty0 046202, 2012.
+\newblock \doi{10.1103/PhysRevE.86.046202}.
+
+\bibitem[Anderson et~al.(2010)Anderson, Guionnet, and
+  Zeitouni]{anderson2010introduction}
+Greg~W. Anderson, Alice Guionnet, and Ofer Zeitouni.
+\newblock \emph{An Introduction to Random Matrices}, volume 118 of
+  \emph{Cambridge Studies in Advanced Mathematics}.
+\newblock Cambridge University Press, Cambridge, 2010.
+\newblock \doi{10.1017/CBO9780511801334}.
+
+\bibitem[Anderson(2003)]{anderson2003introduction}
+T.~W. Anderson.
+\newblock \emph{An Introduction to Multivariate Statistical Analysis}.
+\newblock John Wiley \& Sons, Hoboken, NJ, 3 edition, 2003.
+
+\bibitem[Bai and Ng(2002)]{bai2002determining}
+Jushan Bai and Serena Ng.
+\newblock Determining the number of factors in approximate factor models.
+\newblock \emph{Econometrica}, 70\penalty0 (1):\penalty0 191--221, 2002.
+\newblock \doi{10.1111/1468-0262.00273}.
+
+\bibitem[Bai and Silverstein(2004)]{bai2004clt}
+Zhi-Dong Bai and Jack~W. Silverstein.
+\newblock {CLT} for linear spectral statistics of large-dimensional sample
+  covariance matrices.
+\newblock \emph{The Annals of Probability}, 32\penalty0 (1A):\penalty0
+  553--605, 2004.
+\newblock \doi{10.1214/aop/1078415845}.
+
+\bibitem[Bai and Yin(1993)]{bai1993limit}
+Zhi-Dong Bai and Yong-Qua Yin.
+\newblock Limit of the smallest eigenvalue of a large dimensional sample
+  covariance matrix.
+\newblock \emph{The Annals of Probability}, 21\penalty0 (3):\penalty0
+  1275--1294, 1993.
+\newblock \doi{10.1214/aop/1176989118}.
+
+\bibitem[Bai and Silverstein(2010)]{bai2010spectral}
+Zhidong Bai and Jack~W. Silverstein.
+\newblock \emph{Spectral Analysis of Large Dimensional Random Matrices}.
+\newblock Springer Series in Statistics. Springer, New York, 2 edition, 2010.
+\newblock \doi{10.1007/978-1-4419-0661-8}.
+
+\bibitem[Bai et~al.(2009)Bai, Jiang, Yao, and Zheng]{bai2009corrections}
+Zhidong Bai, Dandan Jiang, Jian-Feng Yao, and Shurong Zheng.
+\newblock Corrections to {LRT} on large-dimensional covariance matrix by {RMT}.
+\newblock \emph{The Annals of Statistics}, 37\penalty0 (6B):\penalty0
+  3822--3840, 2009.
+\newblock \doi{10.1214/09-AOS694}.
+
+\bibitem[Baik and Silverstein(2006)]{baik2006eigenvalues}
+Jinho Baik and Jack~W. Silverstein.
+\newblock Eigenvalues of large sample covariance matrices of spiked population
+  models.
+\newblock \emph{Journal of Multivariate Analysis}, 97\penalty0 (6):\penalty0
+  1382--1408, 2006.
+\newblock \doi{10.1016/j.jmva.2005.08.003}.
+
+\bibitem[Baik et~al.(2005)Baik, Ben~Arous, and P{\'e}ch{\'e}]{baik2005phase}
+Jinho Baik, G{\'e}rard Ben~Arous, and Sandrine P{\'e}ch{\'e}.
+\newblock Phase transition of the largest eigenvalue for nonnull complex sample
+  covariance matrices.
+\newblock \emph{The Annals of Probability}, 33\penalty0 (5):\penalty0
+  1643--1697, 2005.
+\newblock \doi{10.1214/009117905000000233}.
+
+\bibitem[Bao et~al.(2019)Bao, Hu, Pan, and Zhou]{bao2019canonical}
+Zhigang Bao, Jiang Hu, Guangming Pan, and Wang Zhou.
+\newblock Canonical correlation coefficients of high-dimensional {G}aussian
+  vectors: Finite rank case.
+\newblock \emph{The Annals of Statistics}, 47\penalty0 (1):\penalty0 612--640,
+  2019.
+\newblock \doi{10.1214/18-AOS1704}.
+
+\bibitem[Battiston et~al.(2017)Battiston, Mandel, Monasterolo, Sch{\"u}tze, and
+  Visentin]{battiston2017climate}
+Stefano Battiston, Antoine Mandel, Irene Monasterolo, Franziska Sch{\"u}tze,
+  and Gabriele Visentin.
+\newblock A climate stress-test of the financial system.
+\newblock \emph{Nature Climate Change}, 7\penalty0 (4):\penalty0 283--288,
+  2017.
+\newblock \doi{10.1038/nclimate3255}.
+
+\bibitem[Belghazi et~al.(2018)Belghazi, Baratin, Rajeswar, Ozair, Bengio,
+  Courville, and Hjelm]{belghazi2018mutual}
+Mohamed~Ishmael Belghazi, Aristide Baratin, Sai Rajeswar, Sherjil Ozair, Yoshua
+  Bengio, Aaron Courville, and Devon Hjelm.
+\newblock Mutual information neural estimation.
+\newblock In \emph{Proceedings of the 35th International Conference on Machine
+  Learning}, volume~80 of \emph{Proceedings of Machine Learning Research},
+  pages 531--540, 2018.
+
+\bibitem[Benaych-Georges and Nadakuditi(2011)]{benaych2011eigenvalues}
+Florent Benaych-Georges and Raj~Rao Nadakuditi.
+\newblock The eigenvalues and eigenvectors of finite, low rank perturbations of
+  large random matrices.
+\newblock \emph{Advances in Mathematics}, 227\penalty0 (1):\penalty0 494--521,
+  2011.
+\newblock \doi{10.1016/j.aim.2011.02.007}.
+
+\bibitem[Bickel and Levina(2008)]{bickel2008regularized}
+Peter~J. Bickel and Elizaveta Levina.
+\newblock Regularized estimation of large covariance matrices.
+\newblock \emph{The Annals of Statistics}, 36\penalty0 (1):\penalty0 199--227,
+  2008.
+\newblock \doi{10.1214/009053607000000758}.
+
+\bibitem[Billio et~al.(2012)Billio, Getmansky, Lo, and
+  Pelizzon]{billio2012econometric}
+Monica Billio, Mila Getmansky, Andrew~W. Lo, and Loriana Pelizzon.
+\newblock Econometric measures of connectedness and systemic risk in the
+  finance and insurance sectors.
+\newblock \emph{Journal of Financial Economics}, 104\penalty0 (3):\penalty0
+  535--559, 2012.
+\newblock \doi{10.1016/j.jfineco.2011.12.010}.
+
+\bibitem[Biroli et~al.(2007)Biroli, Bouchaud, and Potters]{biroli2007top}
+Giulio Biroli, Jean-Philippe Bouchaud, and Marc Potters.
+\newblock On the top eigenvalue of heavy-tailed random matrices.
+\newblock \emph{EPL (Europhysics Letters)}, 78\penalty0 (1):\penalty0 10001,
+  2007.
+\newblock \doi{10.1209/0295-5075/78/10001}.
+
+\bibitem[Blackwell(1953)]{blackwell1953equivalent}
+David Blackwell.
+\newblock Equivalent comparisons of experiments.
+\newblock \emph{The Annals of Mathematical Statistics}, 24\penalty0
+  (2):\penalty0 265--272, 1953.
+\newblock \doi{10.1214/aoms/1177729032}.
+
+\bibitem[Bloemendal et~al.(2016)Bloemendal, Knowles, Yau, and
+  Yin]{bloemendal2016principal}
+Alex Bloemendal, Antti Knowles, Horng-Tzer Yau, and Jun Yin.
+\newblock On the principal components of sample covariance matrices.
+\newblock \emph{Probability Theory and Related Fields}, 164\penalty0
+  (1):\penalty0 459--552, 2016.
+\newblock \doi{10.1007/s00440-015-0616-x}.
+
+\bibitem[Bodnar et~al.(2018)Bodnar, Parolya, and Schmid]{bodnar2018estimation}
+Taras Bodnar, Nestor Parolya, and Wolfgang Schmid.
+\newblock Estimation of the global minimum variance portfolio in high
+  dimensions.
+\newblock \emph{European Journal of Operational Research}, 266\penalty0
+  (1):\penalty0 371--390, 2018.
+\newblock \doi{10.1016/j.ejor.2017.09.028}.
+
+\bibitem[Bolton and Kacperczyk(2021)]{bolton2021investors}
+Patrick Bolton and Marcin Kacperczyk.
+\newblock Do investors care about carbon risk?
+\newblock \emph{Journal of Financial Economics}, 142\penalty0 (2):\penalty0
+  517--549, 2021.
+\newblock \doi{10.1016/j.jfineco.2021.05.008}.
+
+\bibitem[Bouchaud and Potters(2003)]{bouchaud2003theory}
+Jean-Philippe Bouchaud and Marc Potters.
+\newblock \emph{Theory of Financial Risk and Derivative Pricing: From
+  Statistical Physics to Risk Management}.
+\newblock Cambridge University Press, Cambridge, 2 edition, 2003.
+\newblock \doi{10.1017/CBO9780511753893}.
+
+\bibitem[Bouchaud and Potters(2011)]{bouchaud2011financial}
+Jean-Philippe Bouchaud and Marc Potters.
+\newblock Financial applications of random matrix theory: A short review.
+\newblock In Gernot Akemann, Jinho Baik, and Philippe Di~Francesco, editors,
+  \emph{The {O}xford Handbook of Random Matrix Theory}. Oxford University
+  Press, Oxford, 2011.
+
+\bibitem[Bru(1991)]{bru1991wishart}
+Marie-France Bru.
+\newblock {W}ishart processes.
+\newblock \emph{Journal of Theoretical Probability}, 4\penalty0 (4):\penalty0
+  725--751, 1991.
+\newblock \doi{10.1007/BF01259552}.
+
+\bibitem[Bun et~al.(2016)Bun, Allez, Bouchaud, and Potters]{bun2016rotational}
+Jo{\"e}l Bun, Romain Allez, Jean-Philippe Bouchaud, and Marc Potters.
+\newblock Rotational invariant estimator for general noisy matrices.
+\newblock \emph{IEEE Transactions on Information Theory}, 62\penalty0
+  (12):\penalty0 7475--7490, 2016.
+\newblock \doi{10.1109/TIT.2016.2616132}.
+
+\bibitem[Bun et~al.(2017)Bun, Bouchaud, and Potters]{bun2017cleaning}
+Jo{\"e}l Bun, Jean-Philippe Bouchaud, and Marc Potters.
+\newblock Cleaning large correlation matrices: Tools from random matrix theory.
+\newblock \emph{Physics Reports}, 666:\penalty0 1--109, 2017.
+\newblock \doi{10.1016/j.physrep.2016.10.005}.
+
+\bibitem[Burda et~al.(2005)Burda, Jurkiewicz, and Wac{\l}aw]{burda2005spectral}
+Zdzis{\l}aw Burda, Jerzy Jurkiewicz, and Bart{\l}omiej Wac{\l}aw.
+\newblock Spectral moments of correlated {W}ishart matrices.
+\newblock \emph{Physical Review E}, 71\penalty0 (2):\penalty0 026111, 2005.
+\newblock \doi{10.1103/PhysRevE.71.026111}.
+
+\bibitem[Cabrales et~al.(2013)Cabrales, Gossner, and
+  Serrano]{cabrales2013entropy}
+Antonio Cabrales, Olivier Gossner, and Roberto Serrano.
+\newblock Entropy and the value of information for investors.
+\newblock \emph{The American Economic Review}, 103\penalty0 (1):\penalty0
+  360--377, 2013.
+\newblock \doi{10.1257/aer.103.1.360}.
+
+\bibitem[Cai et~al.(2015)Cai, Liang, and Zhou]{cai2015law}
+T.~Tony Cai, Tengyuan Liang, and Harrison~H. Zhou.
+\newblock Law of log determinant of sample covariance matrix and optimal
+  estimation of differential entropy for high-dimensional {G}aussian
+  distributions.
+\newblock \emph{Journal of Multivariate Analysis}, 137:\penalty0 161--172,
+  2015.
+\newblock \doi{10.1016/j.jmva.2015.02.003}.
+
+\bibitem[Chamberlain and Rothschild(1983)]{chamberlain1983arbitrage}
+Gary Chamberlain and Michael Rothschild.
+\newblock Arbitrage, factor structure, and mean-variance analysis on large
+  asset markets.
+\newblock \emph{Econometrica}, 51\penalty0 (5):\penalty0 1281--1304, 1983.
+\newblock \doi{10.2307/1912275}.
+
+\bibitem[Chan(1992)]{chan1992wigner}
+Terence Chan.
+\newblock The {W}igner semi-circle law and eigenvalues of matrix-valued
+  diffusions.
+\newblock \emph{Probability Theory and Related Fields}, 93\penalty0
+  (2):\penalty0 249--272, 1992.
+\newblock \doi{10.1007/BF01195231}.
+
+\bibitem[Chernoff(1952)]{chernoff1952measure}
+Herman Chernoff.
+\newblock A measure of asymptotic efficiency for tests of a hypothesis based on
+  the sum of observations.
+\newblock \emph{The Annals of Mathematical Statistics}, 23\penalty0
+  (4):\penalty0 493--507, 1952.
+\newblock \doi{10.1214/aoms/1177729330}.
+
+\bibitem[Collins(2005)]{collins2005product}
+Beno{\^\i}t Collins.
+\newblock Product of random projections, {J}acobi ensembles and universality
+  problems arising from free probability.
+\newblock \emph{Probability Theory and Related Fields}, 133\penalty0
+  (3):\penalty0 315--344, 2005.
+\newblock \doi{10.1007/s00440-005-0428-5}.
+
+\bibitem[Cont(2001)]{cont2001empirical}
+Rama Cont.
+\newblock Empirical properties of asset returns: Stylized facts and statistical
+  issues.
+\newblock \emph{Quantitative Finance}, 1\penalty0 (2):\penalty0 223--236, 2001.
+\newblock \doi{10.1080/713665670}.
+
+\bibitem[Couillet and Liao(2022)]{couillet2022random}
+Romain Couillet and Zhenyu Liao.
+\newblock \emph{Random Matrix Methods for Machine Learning}.
+\newblock Cambridge University Press, Cambridge, 2022.
+\newblock \doi{10.1017/9781009128490}.
+
+\bibitem[Cover and Thomas(2006)]{cover2006elements}
+Thomas~M. Cover and Joy~A. Thomas.
+\newblock \emph{Elements of Information Theory}.
+\newblock Wiley-Interscience, Hoboken, NJ, 2 edition, 2006.
+\newblock \doi{10.1002/047174882X}.
+
+\bibitem[de~Moura and Ullrich(2021)]{demoura2021lean}
+Leonardo de~Moura and Sebastian Ullrich.
+\newblock The {L}ean 4 theorem prover and programming language.
+\newblock In \emph{Automated Deduction -- {CADE} 28}, volume 12699 of
+  \emph{Lecture Notes in Computer Science}, pages 625--635, Cham, 2021.
+  Springer.
+\newblock \doi{10.1007/978-3-030-79876-5_37}.
+
+\bibitem[DeMiguel et~al.(2009)DeMiguel, Garlappi, and
+  Uppal]{demiguel2009optimal}
+Victor DeMiguel, Lorenzo Garlappi, and Raman Uppal.
+\newblock Optimal versus naive diversification: How inefficient is the 1/{N}
+  portfolio strategy?
+\newblock \emph{The Review of Financial Studies}, 22\penalty0 (5):\penalty0
+  1915--1953, 2009.
+\newblock \doi{10.1093/rfs/hhm075}.
+
+\bibitem[Dey and Srinivasan(1985)]{dey1985estimation}
+Dipak~K. Dey and C.~Srinivasan.
+\newblock Estimation of a covariance matrix under {S}tein's loss.
+\newblock \emph{The Annals of Statistics}, 13\penalty0 (4):\penalty0
+  1581--1591, 1985.
+\newblock \doi{10.1214/aos/1176349756}.
+
+\bibitem[Diebold and Y{\i}lmaz(2014)]{diebold2014network}
+Francis~X. Diebold and Kamil Y{\i}lmaz.
+\newblock On the network topology of variance decompositions: Measuring the
+  connectedness of financial firms.
+\newblock \emph{Journal of Econometrics}, 182\penalty0 (1):\penalty0 119--134,
+  2014.
+\newblock \doi{10.1016/j.jeconom.2014.04.012}.
+
+\bibitem[Donoho et~al.(2018)Donoho, Gavish, and Johnstone]{donoho2018optimal}
+David~L. Donoho, Matan Gavish, and Iain~M. Johnstone.
+\newblock Optimal shrinkage of eigenvalues in the spiked covariance model.
+\newblock \emph{The Annals of Statistics}, 46\penalty0 (4):\penalty0
+  1742--1778, 2018.
+\newblock \doi{10.1214/17-AOS1601}.
+
+\bibitem[Dumitriu and Edelman(2002)]{dumitriu2002matrix}
+Ioana Dumitriu and Alan Edelman.
+\newblock Matrix models for beta ensembles.
+\newblock \emph{Journal of Mathematical Physics}, 43\penalty0 (11):\penalty0
+  5830--5847, 2002.
+\newblock \doi{10.1063/1.1507823}.
+
+\bibitem[Dyson(1962)]{dyson1962brownian}
+Freeman~J. Dyson.
+\newblock A {B}rownian-motion model for the eigenvalues of a random matrix.
+\newblock \emph{Journal of Mathematical Physics}, 3\penalty0 (6):\penalty0
+  1191--1198, 1962.
+\newblock \doi{10.1063/1.1703862}.
+
+\bibitem[Edelman and Rao(2005)]{edelman2005random}
+Alan Edelman and N.~Raj Rao.
+\newblock Random matrix theory.
+\newblock \emph{Acta Numerica}, 14:\penalty0 233--297, 2005.
+\newblock \doi{10.1017/S0962492904000236}.
+
+\bibitem[El~Karoui(2010)]{elkaroui2010high}
+Noureddine El~Karoui.
+\newblock High-dimensionality effects in the {M}arkowitz problem and other
+  quadratic programs with linear constraints: Risk underestimation.
+\newblock \emph{The Annals of Statistics}, 38\penalty0 (6):\penalty0
+  3487--3566, 2010.
+\newblock \doi{10.1214/10-AOS795}.
+
+\bibitem[Elton and Gruber(1973)]{elton1973estimating}
+Edwin~J. Elton and Martin~J. Gruber.
+\newblock Estimating the dependence structure of share prices---implications
+  for portfolio selection.
+\newblock \emph{The Journal of Finance}, 28\penalty0 (5):\penalty0 1203--1232,
+  1973.
+\newblock \doi{10.1111/j.1540-6261.1973.tb01451.x}.
+
+\bibitem[Engle(2002)]{engle2002dynamic}
+Robert Engle.
+\newblock Dynamic conditional correlation: A simple class of multivariate
+  generalized autoregressive conditional heteroskedasticity models.
+\newblock \emph{Journal of Business \& Economic Statistics}, 20\penalty0
+  (3):\penalty0 339--350, 2002.
+\newblock \doi{10.1198/073500102288618487}.
+
+\bibitem[Engle et~al.(2019)Engle, Ledoit, and Wolf]{engle2019large}
+Robert~F. Engle, Olivier Ledoit, and Michael Wolf.
+\newblock Large dynamic covariance matrices.
+\newblock \emph{Journal of Business \& Economic Statistics}, 37\penalty0
+  (2):\penalty0 363--375, 2019.
+\newblock \doi{10.1080/07350015.2017.1345683}.
+
+\bibitem[Engle et~al.(2020)Engle, Giglio, Kelly, Lee, and
+  Stroebel]{engle2020hedging}
+Robert~F. Engle, Stefano Giglio, Bryan Kelly, Heebum Lee, and Johannes
+  Stroebel.
+\newblock Hedging climate change news.
+\newblock \emph{The Review of Financial Studies}, 33\penalty0 (3):\penalty0
+  1184--1216, 2020.
+\newblock \doi{10.1093/rfs/hhz072}.
+
+\bibitem[Erd{\H{o}}s and Yau(2017)]{erdos2017dynamical}
+L{\'a}szl{\'o} Erd{\H{o}}s and Horng-Tzer Yau.
+\newblock \emph{A Dynamical Approach to Random Matrix Theory}, volume~28 of
+  \emph{Courant Lecture Notes in Mathematics}.
+\newblock American Mathematical Society, Providence, RI, 2017.
+\newblock \doi{10.1090/cln/028}.
+
+\bibitem[Fama(1970)]{fama1970efficient}
+Eugene~F. Fama.
+\newblock Efficient capital markets: A review of theory and empirical work.
+\newblock \emph{The Journal of Finance}, 25\penalty0 (2):\penalty0 383--417,
+  1970.
+\newblock \doi{10.2307/2325486}.
+
+\bibitem[Fama and French(1997)]{fama1997industry}
+Eugene~F. Fama and Kenneth~R. French.
+\newblock Industry costs of equity.
+\newblock \emph{Journal of Financial Economics}, 43\penalty0 (2):\penalty0
+  153--193, 1997.
+\newblock \doi{10.1016/S0304-405X(96)00896-3}.
+
+\bibitem[Fan et~al.(2013)Fan, Liao, and Mincheva]{fan2013large}
+Jianqing Fan, Yuan Liao, and Martina Mincheva.
+\newblock Large covariance estimation by thresholding principal orthogonal
+  complements.
+\newblock \emph{Journal of the Royal Statistical Society Series B: Statistical
+  Methodology}, 75\penalty0 (4):\penalty0 603--680, 2013.
+\newblock \doi{10.1111/rssb.12016}.
+
+\bibitem[Farboodi and Veldkamp(2020)]{farboodi2020long}
+Maryam Farboodi and Laura Veldkamp.
+\newblock Long-run growth of financial data technology.
+\newblock \emph{The American Economic Review}, 110\penalty0 (8):\penalty0
+  2485--2523, 2020.
+\newblock \doi{10.1257/aer.20171349}.
+
+\bibitem[Forrester(2010)]{forrester2010log}
+Peter~J. Forrester.
+\newblock \emph{Log-Gases and Random Matrices}, volume~34 of \emph{London
+  Mathematical Society Monographs}.
+\newblock Princeton University Press, Princeton, NJ, 2010.
+
+\bibitem[French(2026)]{french2026data}
+Kenneth~R. French.
+\newblock Data library: 49 industry portfolios, daily returns.
+\newblock
+  \url{https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html},
+  2026.
+\newblock CRSP 202609 vintage, accessed 23 November 2026.
+
+\bibitem[Gavish and Donoho(2014)]{gavish2014optimal}
+Matan Gavish and David~L. Donoho.
+\newblock The optimal hard threshold for singular values is $4/\sqrt{3}$.
+\newblock \emph{IEEE Transactions on Information Theory}, 60\penalty0
+  (8):\penalty0 5040--5053, 2014.
+\newblock \doi{10.1109/TIT.2014.2323359}.
+
+\bibitem[Geman(1980)]{geman1980limit}
+Stuart Geman.
+\newblock A limit theorem for the norm of random matrices.
+\newblock \emph{The Annals of Probability}, 8\penalty0 (2):\penalty0 252--261,
+  1980.
+\newblock \doi{10.1214/aop/1176994775}.
+
+\bibitem[Giglio et~al.(2021)Giglio, Kelly, and Stroebel]{giglio2021climate}
+Stefano Giglio, Bryan Kelly, and Johannes Stroebel.
+\newblock Climate finance.
+\newblock \emph{Annual Review of Financial Economics}, 13:\penalty0 15--36,
+  2021.
+\newblock \doi{10.1146/annurev-financial-102620-103311}.
+
+\bibitem[Girsanov(1960)]{girsanov1960transforming}
+Igor~Vladimirovich Girsanov.
+\newblock On transforming a certain class of stochastic processes by absolutely
+  continuous substitution of measures.
+\newblock \emph{Theory of Probability \& Its Applications}, 5\penalty0
+  (3):\penalty0 285--301, 1960.
+\newblock \doi{10.1137/1105027}.
+
+\bibitem[Gopikrishnan et~al.(2001)Gopikrishnan, Rosenow, Plerou, and
+  Stanley]{gopikrishnan2001quantifying}
+Parameswaran Gopikrishnan, Bernd Rosenow, Vasiliki Plerou, and H.~Eugene
+  Stanley.
+\newblock Quantifying and interpreting collective behavior in financial
+  markets.
+\newblock \emph{Physical Review E}, 64\penalty0 (3):\penalty0 035106, 2001.
+\newblock \doi{10.1103/PhysRevE.64.035106}.
+
+\bibitem[Gouri{\'e}roux et~al.(2009)Gouri{\'e}roux, Jasiak, and
+  Sufana]{gourieroux2009wishart}
+Christian Gouri{\'e}roux, Joann Jasiak, and Razvan Sufana.
+\newblock The {W}ishart autoregressive process of multivariate stochastic
+  volatility.
+\newblock \emph{Journal of Econometrics}, 150\penalty0 (2):\penalty0 167--181,
+  2009.
+\newblock \doi{10.1016/j.jeconom.2008.12.016}.
+
+\bibitem[Grossman and Stiglitz(1980)]{grossman1980impossibility}
+Sanford~J. Grossman and Joseph~E. Stiglitz.
+\newblock On the impossibility of informationally efficient markets.
+\newblock \emph{The American Economic Review}, 70\penalty0 (3):\penalty0
+  393--408, 1980.
+
+\bibitem[Hastie et~al.(2022)Hastie, Montanari, Rosset, and
+  Tibshirani]{hastie2022surprises}
+Trevor Hastie, Andrea Montanari, Saharon Rosset, and Ryan~J. Tibshirani.
+\newblock Surprises in high-dimensional ridgeless least squares interpolation.
+\newblock \emph{The Annals of Statistics}, 50\penalty0 (2):\penalty0 949--986,
+  2022.
+\newblock \doi{10.1214/21-AOS2133}.
+
+\bibitem[Hellwig(1980)]{hellwig1980aggregation}
+Martin~F. Hellwig.
+\newblock On the aggregation of information in competitive markets.
+\newblock \emph{Journal of Economic Theory}, 22\penalty0 (3):\penalty0
+  477--498, 1980.
+\newblock \doi{10.1016/0022-0531(80)90056-3}.
+
+\bibitem[Jagannathan and Ma(2003)]{jagannathan2003risk}
+Ravi Jagannathan and Tongshu Ma.
+\newblock Risk reduction in large portfolios: Why imposing the wrong
+  constraints helps.
+\newblock \emph{The Journal of Finance}, 58\penalty0 (4):\penalty0 1651--1683,
+  2003.
+\newblock \doi{10.1111/1540-6261.00580}.
+
+\bibitem[James and Stein(1961)]{james1961estimation}
+W.~James and Charles Stein.
+\newblock Estimation with quadratic loss.
+\newblock In \emph{Proceedings of the Fourth {B}erkeley Symposium on
+  Mathematical Statistics and Probability}, volume~1, pages 361--379.
+  University of California Press, Berkeley, CA, 1961.
+
+\bibitem[Jiang and Yang(2013)]{jiang2013central}
+Tiefeng Jiang and Fan Yang.
+\newblock Central limit theorems for classical likelihood ratio tests for
+  high-dimensional normal distributions.
+\newblock \emph{The Annals of Statistics}, 41\penalty0 (4):\penalty0
+  2029--2074, 2013.
+\newblock \doi{10.1214/13-AOS1134}.
+
+\bibitem[Johnstone(2001)]{johnstone2001distribution}
+Iain~M. Johnstone.
+\newblock On the distribution of the largest eigenvalue in principal components
+  analysis.
+\newblock \emph{The Annals of Statistics}, 29\penalty0 (2):\penalty0 295--327,
+  2001.
+\newblock \doi{10.1214/aos/1009210544}.
+
+\bibitem[Johnstone(2008)]{johnstone2008multivariate}
+Iain~M. Johnstone.
+\newblock Multivariate analysis and {J}acobi ensembles: Largest eigenvalue,
+  {T}racy--{W}idom limits and rates of convergence.
+\newblock \emph{The Annals of Statistics}, 36\penalty0 (6):\penalty0
+  2638--2716, 2008.
+\newblock \doi{10.1214/08-AOS605}.
+
+\bibitem[Kacperczyk et~al.(2016)Kacperczyk, Van~Nieuwerburgh, and
+  Veldkamp]{kacperczyk2016rational}
+Marcin Kacperczyk, Stijn Van~Nieuwerburgh, and Laura Veldkamp.
+\newblock A rational theory of mutual funds' attention allocation.
+\newblock \emph{Econometrica}, 84\penalty0 (2):\penalty0 571--626, 2016.
+\newblock \doi{10.3982/ECTA11412}.
+
+\bibitem[Kadan and Manela(2019)]{kadan2019estimating}
+Ohad Kadan and Asaf Manela.
+\newblock Estimating the value of information.
+\newblock \emph{The Review of Financial Studies}, 32\penalty0 (3):\penalty0
+  951--991, 2019.
+\newblock \doi{10.1093/rfs/hhy087}.
+
+\bibitem[Kan and Zhou(2007)]{kan2007optimal}
+Raymond Kan and Guofu Zhou.
+\newblock Optimal portfolio choice with parameter uncertainty.
+\newblock \emph{Journal of Financial and Quantitative Analysis}, 42\penalty0
+  (3):\penalty0 621--656, 2007.
+\newblock \doi{10.1017/S0022109000004129}.
+
+\bibitem[Kelly et~al.(2024)Kelly, Malamud, and Zhou]{kelly2024virtue}
+Bryan Kelly, Semyon Malamud, and Kangying Zhou.
+\newblock The virtue of complexity in return prediction.
+\newblock \emph{The Journal of Finance}, 79\penalty0 (1):\penalty0 459--503,
+  2024.
+\newblock \doi{10.1111/jofi.13298}.
+
+\bibitem[Kelly(1956)]{kelly1956new}
+Jr. Kelly, John~L.
+\newblock A new interpretation of information rate.
+\newblock \emph{Bell System Technical Journal}, 35\penalty0 (4):\penalty0
+  917--926, 1956.
+\newblock \doi{10.1002/j.1538-7305.1956.tb03809.x}.
+
+\bibitem[Knowles and Yin(2017)]{knowles2017anisotropic}
+Antti Knowles and Jun Yin.
+\newblock Anisotropic local laws for random matrices.
+\newblock \emph{Probability Theory and Related Fields}, 169\penalty0
+  (1):\penalty0 257--352, 2017.
+\newblock \doi{10.1007/s00440-016-0730-4}.
+
+\bibitem[Kondor et~al.(2007)Kondor, Pafka, and Nagy]{kondor2007noise}
+Imre Kondor, Szil{\'a}rd Pafka, and G{\'a}bor Nagy.
+\newblock Noise sensitivity of portfolio selection under various risk measures.
+\newblock \emph{Journal of Banking \& Finance}, 31\penalty0 (5):\penalty0
+  1545--1573, 2007.
+\newblock \doi{10.1016/j.jbankfin.2006.12.003}.
+
+\bibitem[Kozak et~al.(2020)Kozak, Nagel, and Santosh]{kozak2020shrinking}
+Serhiy Kozak, Stefan Nagel, and Shrihari Santosh.
+\newblock Shrinking the cross-section.
+\newblock \emph{Journal of Financial Economics}, 135\penalty0 (2):\penalty0
+  271--292, 2020.
+\newblock \doi{10.1016/j.jfineco.2019.06.008}.
+
+\bibitem[Kraskov et~al.(2004)Kraskov, St{\"o}gbauer, and
+  Grassberger]{kraskov2004estimating}
+Alexander Kraskov, Harald St{\"o}gbauer, and Peter Grassberger.
+\newblock Estimating mutual information.
+\newblock \emph{Physical Review E}, 69\penalty0 (6):\penalty0 066138, 2004.
+\newblock \doi{10.1103/PhysRevE.69.066138}.
+
+\bibitem[Kritzman et~al.(2011)Kritzman, Li, Page, and
+  Rigobon]{kritzman2011principal}
+Mark Kritzman, Yuanzhen Li, Sebastien Page, and Roberto Rigobon.
+\newblock Principal components as a measure of systemic risk.
+\newblock \emph{The Journal of Portfolio Management}, 37\penalty0 (4):\penalty0
+  112--126, 2011.
+\newblock \doi{10.3905/jpm.2011.37.4.112}.
+
+\bibitem[Kullback and Leibler(1951)]{kullback1951information}
+Solomon Kullback and Richard~A. Leibler.
+\newblock On information and sufficiency.
+\newblock \emph{The Annals of Mathematical Statistics}, 22\penalty0
+  (1):\penalty0 79--86, 1951.
+\newblock \doi{10.1214/aoms/1177729694}.
+
+\bibitem[Kwapie{\'n} and Dro{\.z}d{\.z}(2012)]{kwapien2012physical}
+Jaros{\l}aw Kwapie{\'n} and Stanis{\l}aw Dro{\.z}d{\.z}.
+\newblock Physical approach to complex systems.
+\newblock \emph{Physics Reports}, 515\penalty0 (3--4):\penalty0 115--226, 2012.
+\newblock \doi{10.1016/j.physrep.2012.01.007}.
+
+\bibitem[Kyle(1985)]{kyle1985continuous}
+Albert~S. Kyle.
+\newblock Continuous auctions and insider trading.
+\newblock \emph{Econometrica}, 53\penalty0 (6):\penalty0 1315--1335, 1985.
+\newblock \doi{10.2307/1913210}.
+
+\bibitem[Laloux et~al.(1999)Laloux, Cizeau, Bouchaud, and
+  Potters]{laloux1999noise}
+Laurent Laloux, Pierre Cizeau, Jean-Philippe Bouchaud, and Marc Potters.
+\newblock Noise dressing of financial correlation matrices.
+\newblock \emph{Physical Review Letters}, 83\penalty0 (7):\penalty0 1467--1470,
+  1999.
+\newblock \doi{10.1103/PhysRevLett.83.1467}.
+
+\bibitem[Laloux et~al.(2000)Laloux, Cizeau, Potters, and
+  Bouchaud]{laloux2000random}
+Laurent Laloux, Pierre Cizeau, Marc Potters, and Jean-Philippe Bouchaud.
+\newblock Random matrix theory and financial correlations.
+\newblock \emph{International Journal of Theoretical and Applied Finance},
+  3\penalty0 (3):\penalty0 391--397, 2000.
+\newblock \doi{10.1142/S0219024900000255}.
+
+\bibitem[Ledoit and P{\'e}ch{\'e}(2011)]{ledoit2011eigenvectors}
+Olivier Ledoit and Sandrine P{\'e}ch{\'e}.
+\newblock Eigenvectors of some large sample covariance matrix ensembles.
+\newblock \emph{Probability Theory and Related Fields}, 151\penalty0
+  (1):\penalty0 233--264, 2011.
+\newblock \doi{10.1007/s00440-010-0298-3}.
+
+\bibitem[Ledoit and Wolf(2003)]{ledoit2003improved}
+Olivier Ledoit and Michael Wolf.
+\newblock Improved estimation of the covariance matrix of stock returns with an
+  application to portfolio selection.
+\newblock \emph{Journal of Empirical Finance}, 10\penalty0 (5):\penalty0
+  603--621, 2003.
+\newblock \doi{10.1016/S0927-5398(03)00007-0}.
+
+\bibitem[Ledoit and Wolf(2004)]{ledoit2004well}
+Olivier Ledoit and Michael Wolf.
+\newblock A well-conditioned estimator for large-dimensional covariance
+  matrices.
+\newblock \emph{Journal of Multivariate Analysis}, 88\penalty0 (2):\penalty0
+  365--411, 2004.
+\newblock \doi{10.1016/S0047-259X(03)00096-4}.
+
+\bibitem[Ledoit and Wolf(2012)]{ledoit2012nonlinear}
+Olivier Ledoit and Michael Wolf.
+\newblock Nonlinear shrinkage estimation of large-dimensional covariance
+  matrices.
+\newblock \emph{The Annals of Statistics}, 40\penalty0 (2):\penalty0
+  1024--1060, 2012.
+\newblock \doi{10.1214/12-AOS989}.
+
+\bibitem[Ledoit and Wolf(2017)]{ledoit2017nonlinear}
+Olivier Ledoit and Michael Wolf.
+\newblock Nonlinear shrinkage of the covariance matrix for portfolio selection:
+  {M}arkowitz meets {G}oldilocks.
+\newblock \emph{The Review of Financial Studies}, 30\penalty0 (12):\penalty0
+  4349--4388, 2017.
+\newblock \doi{10.1093/rfs/hhx052}.
+
+\bibitem[Ledoit and Wolf(2020)]{ledoit2020analytical}
+Olivier Ledoit and Michael Wolf.
+\newblock Analytical nonlinear shrinkage of large-dimensional covariance
+  matrices.
+\newblock \emph{The Annals of Statistics}, 48\penalty0 (5):\penalty0
+  3043--3065, 2020.
+\newblock \doi{10.1214/19-AOS1921}.
+
+\bibitem[Ledoit and Wolf(2022)]{ledoit2022power}
+Olivier Ledoit and Michael Wolf.
+\newblock The power of (non-)linear shrinking: A review and guide to covariance
+  matrix estimation.
+\newblock \emph{Journal of Financial Econometrics}, 20\penalty0 (1):\penalty0
+  187--218, 2022.
+\newblock \doi{10.1093/jjfinec/nbaa007}.
+
+\bibitem[Lettau and Pelger(2020{\natexlab{a}})]{lettau2020estimating}
+Martin Lettau and Markus Pelger.
+\newblock Estimating latent asset-pricing factors.
+\newblock \emph{Journal of Econometrics}, 218\penalty0 (1):\penalty0 1--31,
+  2020{\natexlab{a}}.
+\newblock \doi{10.1016/j.jeconom.2019.08.012}.
+
+\bibitem[Lettau and Pelger(2020{\natexlab{b}})]{lettau2020factors}
+Martin Lettau and Markus Pelger.
+\newblock Factors that fit the time series and cross-section of stock returns.
+\newblock \emph{The Review of Financial Studies}, 33\penalty0 (5):\penalty0
+  2274--2325, 2020{\natexlab{b}}.
+\newblock \doi{10.1093/rfs/hhaa020}.
+
+\bibitem[Li et~al.(2020)Li, Wong, Chen, and Duvenaud]{li2020scalable}
+Xuechen Li, Ting-Kam~Leonard Wong, Ricky T.~Q. Chen, and David Duvenaud.
+\newblock Scalable gradients for stochastic differential equations.
+\newblock In \emph{Proceedings of the Twenty Third International Conference on
+  Artificial Intelligence and Statistics}, volume 108 of \emph{Proceedings of
+  Machine Learning Research}, pages 3870--3882, 2020.
+
+\bibitem[Livan et~al.(2018)Livan, Novaes, and Vivo]{livan2018introduction}
+Giacomo Livan, Marcel Novaes, and Pierpaolo Vivo.
+\newblock \emph{Introduction to Random Matrices: Theory and Practice},
+  volume~26 of \emph{SpringerBriefs in Mathematical Physics}.
+\newblock Springer, Cham, 2018.
+\newblock \doi{10.1007/978-3-319-70885-0}.
+
+\bibitem[Ma{\'c}kowiak et~al.(2023)Ma{\'c}kowiak, Mat{\v{e}}jka, and
+  Wiederholt]{mackowiak2023rational}
+Bartosz Ma{\'c}kowiak, Filip Mat{\v{e}}jka, and Mirko Wiederholt.
+\newblock Rational inattention: A review.
+\newblock \emph{Journal of Economic Literature}, 61\penalty0 (1):\penalty0
+  226--273, 2023.
+\newblock \doi{10.1257/jel.20211524}.
+
+\bibitem[Mantegna(1999)]{mantegna1999hierarchical}
+Rosario~N. Mantegna.
+\newblock Hierarchical structure in financial markets.
+\newblock \emph{The European Physical Journal B}, 11\penalty0 (1):\penalty0
+  193--197, 1999.
+\newblock \doi{10.1007/s100510050929}.
+
+\bibitem[Mantegna and Stanley(2000)]{mantegna2000introduction}
+Rosario~N. Mantegna and H.~Eugene Stanley.
+\newblock \emph{An Introduction to Econophysics: Correlations and Complexity in
+  Finance}.
+\newblock Cambridge University Press, Cambridge, 2000.
+\newblock \doi{10.1017/CBO9780511755767}.
+
+\bibitem[Mar{\v{c}}enko and Pastur(1967)]{marchenko1967distribution}
+Vladimir~A. Mar{\v{c}}enko and Leonid~A. Pastur.
+\newblock Distribution of eigenvalues for some sets of random matrices.
+\newblock \emph{Mathematics of the USSR-Sbornik}, 1\penalty0 (4):\penalty0
+  457--483, 1967.
+\newblock \doi{10.1070/SM1967v001n04ABEH001994}.
+
+\bibitem[Markowitz(1952)]{markowitz1952portfolio}
+Harry Markowitz.
+\newblock Portfolio selection.
+\newblock \emph{The Journal of Finance}, 7\penalty0 (1):\penalty0 77--91, 1952.
+\newblock \doi{10.1111/j.1540-6261.1952.tb01525.x}.
+
+\bibitem[Martin and Nagel(2022)]{martin2022market}
+Ian W.~R. Martin and Stefan Nagel.
+\newblock Market efficiency in the age of big data.
+\newblock \emph{Journal of Financial Economics}, 145\penalty0 (1):\penalty0
+  154--177, 2022.
+\newblock \doi{10.1016/j.jfineco.2021.10.006}.
+
+\bibitem[Mat{\v{e}}jka and McKay(2015)]{matejka2015rational}
+Filip Mat{\v{e}}jka and Alisdair McKay.
+\newblock Rational inattention to discrete choices: A new foundation for the
+  multinomial logit model.
+\newblock \emph{The American Economic Review}, 105\penalty0 (1):\penalty0
+  272--298, 2015.
+\newblock \doi{10.1257/aer.20130047}.
+
+\bibitem[McAllester and Stratos(2020)]{mcallester2020formal}
+David McAllester and Karl Stratos.
+\newblock Formal limitations on the measurement of mutual information.
+\newblock In \emph{Proceedings of the Twenty Third International Conference on
+  Artificial Intelligence and Statistics}, volume 108 of \emph{Proceedings of
+  Machine Learning Research}, pages 875--884, 2020.
+
+\bibitem[Mehta(2004)]{mehta2004random}
+Madan~Lal Mehta.
+\newblock \emph{Random Matrices}, volume 142 of \emph{Pure and Applied
+  Mathematics}.
+\newblock Elsevier/Academic Press, Amsterdam, 3 edition, 2004.
+
+\bibitem[Michaud(1989)]{michaud1989markowitz}
+Richard~O. Michaud.
+\newblock The {M}arkowitz optimization enigma: Is `optimized' optimal?
+\newblock \emph{Financial Analysts Journal}, 45\penalty0 (1):\penalty0 31--42,
+  1989.
+\newblock \doi{10.2469/faj.v45.n1.31}.
+
+\bibitem[Mingo and Speicher(2017)]{mingo2017free}
+James~A. Mingo and Roland Speicher.
+\newblock \emph{Free Probability and Random Matrices}, volume~35 of
+  \emph{Fields Institute Monographs}.
+\newblock Springer, New York, 2017.
+\newblock \doi{10.1007/978-1-4939-6942-5}.
+
+\bibitem[Misra et~al.(2005)Misra, Singh, and Demchuk]{misra2005estimation}
+Neeraj Misra, Harshinder Singh, and Eugene Demchuk.
+\newblock Estimation of the entropy of a multivariate normal distribution.
+\newblock \emph{Journal of Multivariate Analysis}, 92\penalty0 (2):\penalty0
+  324--342, 2005.
+\newblock \doi{10.1016/j.jmva.2003.10.003}.
+
+\bibitem[Muirhead(1982)]{muirhead1982aspects}
+Robb~J. Muirhead.
+\newblock \emph{Aspects of Multivariate Statistical Theory}.
+\newblock John Wiley \& Sons, New York, 1982.
+\newblock \doi{10.1002/9780470316559}.
+
+\bibitem[M{\"u}nnix et~al.(2012)M{\"u}nnix, Shimada, Sch{\"a}fer, Leyvraz,
+  Seligman, Guhr, and Stanley]{munnix2012identifying}
+Michael~C. M{\"u}nnix, Takashi Shimada, Rudi Sch{\"a}fer, Francois Leyvraz,
+  Thomas~H. Seligman, Thomas Guhr, and H.~Eugene Stanley.
+\newblock Identifying states of a financial market.
+\newblock \emph{Scientific Reports}, 2:\penalty0 644, 2012.
+\newblock \doi{10.1038/srep00644}.
+
+\bibitem[Nica and Speicher(2006)]{nica2006lectures}
+Alexandru Nica and Roland Speicher.
+\newblock \emph{Lectures on the Combinatorics of Free Probability}, volume 335
+  of \emph{London Mathematical Society Lecture Note Series}.
+\newblock Cambridge University Press, Cambridge, 2006.
+\newblock \doi{10.1017/CBO9780511735127}.
+
+\bibitem[Onatski(2009)]{onatski2009testing}
+Alexei Onatski.
+\newblock Testing hypotheses about the number of factors in large factor
+  models.
+\newblock \emph{Econometrica}, 77\penalty0 (5):\penalty0 1447--1479, 2009.
+\newblock \doi{10.3982/ECTA6964}.
+
+\bibitem[Onatski(2010)]{onatski2010determining}
+Alexei Onatski.
+\newblock Determining the number of factors from empirical distribution of
+  eigenvalues.
+\newblock \emph{The Review of Economics and Statistics}, 92\penalty0
+  (4):\penalty0 1004--1016, 2010.
+\newblock \doi{10.1162/REST_a_00043}.
+
+\bibitem[Pafka and Kondor(2002)]{pafka2002noisy}
+Szil{\'a}rd Pafka and Imre Kondor.
+\newblock Noisy covariance matrices and portfolio optimization.
+\newblock \emph{The European Physical Journal B}, 27\penalty0 (2):\penalty0
+  277--280, 2002.
+\newblock \doi{10.1140/epjb/e20020153}.
+
+\bibitem[Pafka and Kondor(2003)]{pafka2003noisy}
+Szil{\'a}rd Pafka and Imre Kondor.
+\newblock Noisy covariance matrices and portfolio optimization {II}.
+\newblock \emph{Physica A: Statistical Mechanics and its Applications},
+  319:\penalty0 487--494, 2003.
+\newblock \doi{10.1016/S0378-4371(02)01499-1}.
+
+\bibitem[Paninski(2003)]{paninski2003estimation}
+Liam Paninski.
+\newblock Estimation of entropy and mutual information.
+\newblock \emph{Neural Computation}, 15\penalty0 (6):\penalty0 1191--1253,
+  2003.
+\newblock \doi{10.1162/089976603321780272}.
+
+\bibitem[P{\'a}stor et~al.(2022)P{\'a}stor, Stambaugh, and
+  Taylor]{pastor2022dissecting}
+{\v{L}}ubo{\v{s}} P{\'a}stor, Robert~F. Stambaugh, and Lucian~A. Taylor.
+\newblock Dissecting green returns.
+\newblock \emph{Journal of Financial Economics}, 146\penalty0 (2):\penalty0
+  403--424, 2022.
+\newblock \doi{10.1016/j.jfineco.2022.07.007}.
+
+\bibitem[Paul(2007)]{paul2007asymptotics}
+Debashis Paul.
+\newblock Asymptotics of sample eigenstructure for a large dimensional spiked
+  covariance model.
+\newblock \emph{Statistica Sinica}, 17\penalty0 (4):\penalty0 1617--1642, 2007.
+
+\bibitem[Pelger(2020)]{pelger2020understanding}
+Markus Pelger.
+\newblock Understanding systematic risk: A high-frequency approach.
+\newblock \emph{The Journal of Finance}, 75\penalty0 (4):\penalty0 2179--2220,
+  2020.
+\newblock \doi{10.1111/jofi.12898}.
+
+\bibitem[Plerou et~al.(1999)Plerou, Gopikrishnan, Rosenow, Amaral, and
+  Stanley]{plerou1999universal}
+Vasiliki Plerou, Parameswaran Gopikrishnan, Bernd Rosenow, Lu{\'\i}s A.~Nunes
+  Amaral, and H.~Eugene Stanley.
+\newblock Universal and nonuniversal properties of cross correlations in
+  financial time series.
+\newblock \emph{Physical Review Letters}, 83\penalty0 (7):\penalty0 1471--1474,
+  1999.
+\newblock \doi{10.1103/PhysRevLett.83.1471}.
+
+\bibitem[Plerou et~al.(2002)Plerou, Gopikrishnan, Rosenow, Amaral, Guhr, and
+  Stanley]{plerou2002random}
+Vasiliki Plerou, Parameswaran Gopikrishnan, Bernd Rosenow, Lu{\'\i}s A.~Nunes
+  Amaral, Thomas Guhr, and H.~Eugene Stanley.
+\newblock Random matrix approach to cross correlations in financial data.
+\newblock \emph{Physical Review E}, 65\penalty0 (6):\penalty0 066126, 2002.
+\newblock \doi{10.1103/PhysRevE.65.066126}.
+
+\bibitem[Potters and Bouchaud(2020)]{potters2020first}
+Marc Potters and Jean-Philippe Bouchaud.
+\newblock \emph{A First Course in Random Matrix Theory: For Physicists,
+  Engineers and Data Scientists}.
+\newblock Cambridge University Press, Cambridge, 2020.
+\newblock \doi{10.1017/9781108768900}.
+
+\bibitem[Reigneron et~al.(2011)Reigneron, Allez, and
+  Bouchaud]{reigneron2011principal}
+Pierre-Alain Reigneron, Romain Allez, and Jean-Philippe Bouchaud.
+\newblock Principal regression analysis and the index leverage effect.
+\newblock \emph{Physica A: Statistical Mechanics and its Applications},
+  390\penalty0 (17):\penalty0 3026--3035, 2011.
+\newblock \doi{10.1016/j.physa.2011.04.007}.
+
+\bibitem[Rice(2026)]{rice2026sldi}
+James~K. Rice.
+\newblock Stochastic deep learning: A probabilistic framework for modeling
+  uncertainty in structured temporal data.
+\newblock arXiv preprint arXiv:2601.05227, 2026.
+
+\bibitem[Rogers and Shi(1993)]{rogers1993interacting}
+L.~C.~G. Rogers and Z.~Shi.
+\newblock Interacting {B}rownian particles and the {W}igner law.
+\newblock \emph{Probability Theory and Related Fields}, 95\penalty0
+  (4):\penalty0 555--570, 1993.
+\newblock \doi{10.1007/BF01196734}.
+
+\bibitem[Ross(1976)]{ross1976arbitrage}
+Stephen~A. Ross.
+\newblock The arbitrage theory of capital asset pricing.
+\newblock \emph{Journal of Economic Theory}, 13\penalty0 (3):\penalty0
+  341--360, 1976.
+\newblock \doi{10.1016/0022-0531(76)90046-6}.
+
+\bibitem[S{\"a}rkk{\"a} and Solin(2019)]{sarkka2019applied}
+Simo S{\"a}rkk{\"a} and Arno Solin.
+\newblock \emph{Applied Stochastic Differential Equations}.
+\newblock Institute of Mathematical Statistics Textbooks. Cambridge University
+  Press, Cambridge, 2019.
+\newblock \doi{10.1017/9781108186735}.
+
+\bibitem[Schmitt et~al.(2013)Schmitt, Chetalova, Sch{\"a}fer, and
+  Guhr]{schmitt2013non}
+Thilo~A. Schmitt, Desislava Chetalova, Rudi Sch{\"a}fer, and Thomas Guhr.
+\newblock Non-stationarity in financial time series: Generic features and tail
+  behavior.
+\newblock \emph{EPL (Europhysics Letters)}, 103\penalty0 (5):\penalty0 58003,
+  2013.
+\newblock \doi{10.1209/0295-5075/103/58003}.
+
+\bibitem[Shannon(1948)]{shannon1948mathematical}
+Claude~E. Shannon.
+\newblock A mathematical theory of communication.
+\newblock \emph{Bell System Technical Journal}, 27\penalty0 (3):\penalty0
+  379--423, 1948.
+\newblock \doi{10.1002/j.1538-7305.1948.tb01338.x}.
+
+\bibitem[Silverstein and Bai(1995)]{silverstein1995empirical}
+Jack~W. Silverstein and Zhi-Dong Bai.
+\newblock On the empirical distribution of eigenvalues of a class of large
+  dimensional random matrices.
+\newblock \emph{Journal of Multivariate Analysis}, 54\penalty0 (2):\penalty0
+  175--192, 1995.
+\newblock \doi{10.1006/jmva.1995.1051}.
+
+\bibitem[Sims(2003)]{sims2003implications}
+Christopher~A. Sims.
+\newblock Implications of rational inattention.
+\newblock \emph{Journal of Monetary Economics}, 50\penalty0 (3):\penalty0
+  665--690, 2003.
+\newblock \doi{10.1016/S0304-3932(03)00029-1}.
+
+\bibitem[Stanley(1999)]{stanley1999enumerative}
+Richard~P. Stanley.
+\newblock \emph{Enumerative Combinatorics}, volume~2 of \emph{Cambridge Studies
+  in Advanced Mathematics 62}.
+\newblock Cambridge University Press, Cambridge, 1999.
+\newblock \doi{10.1017/CBO9780511609589}.
+
+\bibitem[Stiglitz(2000)]{stiglitz2000contributions}
+Joseph~E. Stiglitz.
+\newblock The contributions of the economics of information to twentieth
+  century economics.
+\newblock \emph{The Quarterly Journal of Economics}, 115\penalty0 (4):\penalty0
+  1441--1478, 2000.
+\newblock \doi{10.1162/003355300555015}.
+
+\bibitem[Tao(2012)]{tao2012topics}
+Terence Tao.
+\newblock \emph{Topics in Random Matrix Theory}, volume 132 of \emph{Graduate
+  Studies in Mathematics}.
+\newblock American Mathematical Society, Providence, RI, 2012.
+\newblock \doi{10.1090/gsm/132}.
+
+\bibitem[Telatar(1999)]{telatar1999capacity}
+Emre Telatar.
+\newblock Capacity of multi-antenna {G}aussian channels.
+\newblock \emph{European Transactions on Telecommunications}, 10\penalty0
+  (6):\penalty0 585--595, 1999.
+\newblock \doi{10.1002/ett.4460100604}.
+
+\bibitem[Tracy and Widom(1994)]{tracy1994level}
+Craig~A. Tracy and Harold Widom.
+\newblock Level-spacing distributions and the {A}iry kernel.
+\newblock \emph{Communications in Mathematical Physics}, 159\penalty0
+  (1):\penalty0 151--174, 1994.
+\newblock \doi{10.1007/BF02100489}.
+
+\bibitem[Tracy and Widom(1996)]{tracy1996orthogonal}
+Craig~A. Tracy and Harold Widom.
+\newblock On orthogonal and symplectic matrix ensembles.
+\newblock \emph{Communications in Mathematical Physics}, 177\penalty0
+  (3):\penalty0 727--754, 1996.
+\newblock \doi{10.1007/BF02099545}.
+
+\bibitem[Tulino and Verd{\'u}(2004)]{tulino2004random}
+Antonia~M. Tulino and Sergio Verd{\'u}.
+\newblock Random matrix theory and wireless communications.
+\newblock \emph{Foundations and Trends in Communications and Information
+  Theory}, 1\penalty0 (1):\penalty0 1--182, 2004.
+\newblock \doi{10.1561/0100000001}.
+
+\bibitem[Tumminello et~al.(2010)Tumminello, Lillo, and
+  Mantegna]{tumminello2010correlation}
+Michele Tumminello, Fabrizio Lillo, and Rosario~N. Mantegna.
+\newblock Correlation, hierarchies, and networks in financial markets.
+\newblock \emph{Journal of Economic Behavior \& Organization}, 75\penalty0
+  (1):\penalty0 40--58, 2010.
+\newblock \doi{10.1016/j.jebo.2010.01.004}.
+
+\bibitem[Utsugi et~al.(2004)Utsugi, Ino, and Oshikawa]{utsugi2004random}
+Akihiko Utsugi, Kazusumi Ino, and Masaki Oshikawa.
+\newblock Random matrix theory analysis of cross correlations in financial
+  markets.
+\newblock \emph{Physical Review E}, 70\penalty0 (2):\penalty0 026110, 2004.
+\newblock \doi{10.1103/PhysRevE.70.026110}.
+
+\bibitem[Van~Nieuwerburgh and Veldkamp(2010)]{vannieuwerburgh2010information}
+Stijn Van~Nieuwerburgh and Laura Veldkamp.
+\newblock Information acquisition and under-diversification.
+\newblock \emph{The Review of Economic Studies}, 77\penalty0 (2):\penalty0
+  779--805, 2010.
+\newblock \doi{10.1111/j.1467-937X.2009.00583.x}.
+
+\bibitem[Veldkamp(2011)]{veldkamp2011information}
+Laura~L. Veldkamp.
+\newblock \emph{Information Choice in Macroeconomics and Finance}.
+\newblock Princeton University Press, Princeton, NJ, 2011.
+
+\bibitem[Verrecchia(1982)]{verrecchia1982information}
+Robert~E. Verrecchia.
+\newblock Information acquisition in a noisy rational expectations economy.
+\newblock \emph{Econometrica}, 50\penalty0 (6):\penalty0 1415--1430, 1982.
+\newblock \doi{10.2307/1913389}.
+
+\bibitem[Voiculescu(1991)]{voiculescu1991limit}
+Dan Voiculescu.
+\newblock Limit laws for random matrices and free products.
+\newblock \emph{Inventiones Mathematicae}, 104\penalty0 (1):\penalty0 201--220,
+  1991.
+\newblock \doi{10.1007/BF01245072}.
+
+\bibitem[Voiculescu et~al.(1992)Voiculescu, Dykema, and
+  Nica]{voiculescu1992free}
+Dan~V. Voiculescu, Ken~J. Dykema, and Alexandru Nica.
+\newblock \emph{Free Random Variables}, volume~1 of \emph{CRM Monograph
+  Series}.
+\newblock American Mathematical Society, Providence, RI, 1992.
+\newblock \doi{10.1090/crmm/001}.
+
+\bibitem[Wachter(1980)]{wachter1980limiting}
+Kenneth~W. Wachter.
+\newblock The limiting empirical measure of multiple discriminant ratios.
+\newblock \emph{The Annals of Statistics}, 8\penalty0 (5):\penalty0 937--957,
+  1980.
+\newblock \doi{10.1214/aos/1176345134}.
+
+\bibitem[Wigner(1955)]{wigner1955characteristic}
+Eugene~P. Wigner.
+\newblock Characteristic vectors of bordered matrices with infinite dimensions.
+\newblock \emph{Annals of Mathematics}, 62\penalty0 (3):\penalty0 548--564,
+  1955.
+\newblock \doi{10.2307/1970079}.
+
+\bibitem[Wigner(1958)]{wigner1958distribution}
+Eugene~P. Wigner.
+\newblock On the distribution of the roots of certain symmetric matrices.
+\newblock \emph{Annals of Mathematics}, 67\penalty0 (2):\penalty0 325--327,
+  1958.
+\newblock \doi{10.2307/1970008}.
+
+\bibitem[Yang and Pan(2015)]{yang2015independence}
+Yanrong Yang and Guangming Pan.
+\newblock Independence test for high dimensional data based on regularized
+  canonical correlation coefficients.
+\newblock \emph{The Annals of Statistics}, 43\penalty0 (2):\penalty0 467--500,
+  2015.
+\newblock \doi{10.1214/14-AOS1284}.
+
+\end{thebibliography}

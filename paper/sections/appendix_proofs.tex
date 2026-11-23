@@ -1,0 +1,89 @@
+\section*{Appendix A. Proofs}
+\addcontentsline{toc}{section}{Appendix A. Proofs}
+
+Throughout, $\psi=\Gamma'/\Gamma$ is the digamma function and $\psi'$ the trigamma function. The facts used are that $\psi$ is strictly increasing and $\psi'$ strictly decreasing and positive on $(0,\infty)$, that $\psi(x)=\log x-1/(2x)+O(x^{-2})$ and $\psi'(x)=1/x+1/(2x^2)+O(x^{-3})$ as $x\to\infty$, and that for $\beta\sim\Beta(a,b)$ one has $\E\log\beta=\psi(a)-\psi(a+b)$ and $\Var\log\beta=\psi'(a)-\psi'(a+b)$. For $Y\sim\chi^2_k$, $\E\log Y=\psi(k/2)+\log2$ and $\Var\log Y=\psi'(k/2)$.
+
+\subsection*{Log-determinants}
+
+Let $W\sim\mathcal W_N(n,\Sigma)$ with $n\ge N$. Then $W=\Sigma^{1/2}W_0\Sigma^{1/2}$ with $W_0\sim\mathcal W_N(n,I)$, so $\log\det(W/n)-\log\det\Sigma=\log\det W_0-N\log n$. By the Bartlett decomposition, $W_0=LL^\top$ with $L$ lower triangular and $L_{ii}^2\sim\chi^2_{n-i+1}$ independent \citep[Ch.~3]{muirhead1982aspects}, so $\log\det W_0=\sum_i\log L_{ii}^2$. Taking expectations and variances gives \eqref{eq:logdet}. For the limit, write
+\[
+ \ell_n(N)=\sum_{i=1}^N\log\Bigl(1-\frac{i-1}n\Bigr)-\sum_{i=1}^N\frac1{n-i+1}+O\Bigl(\sum_{i\le N}(n-i+1)^{-2}\Bigr).
+\]
+The last term is $O(1/n)$ when $N/n\to q<1$. The second sum equals $-\log(1-q)+o(1)$. The trapezoidal rule applied to the first sum, whose summand $f(u)=\log(1-u)$ is smooth on $[0,q]$, gives $n\int_0^{N/n}\log(1-u)\,\dd u+\tfrac12[f(0)-f(N/n)]+O(1/n)$. Since $\int_0^q\log(1-u)\,\dd u=-(1-q)\log(1-q)-q=q\varphi(q)$, the result is $\ell_n(N)=N\varphi(N/n)+\tfrac12\log(1-N/n)+o(1)$. In particular $\ell_n(N)/N\to\varphi(q)$. The variance limit follows in the same way from $\psi'((n-i+1)/2)=2/(n-i+1)+O(n^{-2})$, which gives $\sum_{i\le N}2/(n-i+1)\to-2\log(1-q)$.
+
+\subsection*{Exact spurious information}
+
+If $nS\sim\mathcal W_{p+r}(n,\Sigma)$, then the diagonal blocks satisfy $nS_{11}\sim\mathcal W_p(n,\Sigma_{11})$ and $nS_{22}\sim\mathcal W_r(n,\Sigma_{22})$, because a principal submatrix of $X^\top X$ is the cross-product matrix of the corresponding columns of $X$. Hence, by \eqref{eq:logdet},
+\[
+ 2(\E\hat I-I)=\ell_n(p)+\ell_n(r)-\ell_n(p+r)
+ =\Psi_n(p)+\Psi_n(r)-\Psi_n(p+r)-(p+r-p-r)\log\frac n2,
+\]
+which is $2B_n(p,r)$. For the telescoping form, split $\Psi_n(p+r)=\Psi_n(p)+\sum_{i=1}^r\psi((n-p-i+1)/2)$, so that $2B_n=\sum_{i=1}^r[\psi((n-i+1)/2)-\psi((n-p-i+1)/2)]$. Each summand is strictly positive because $\psi$ is strictly increasing and $p\ge1$. Symmetry in $(p,r)$ is evident from the first form. The Lean theorems \texttt{twiceBias\_eq}, \texttt{twiceBias\_pos} and \texttt{twiceBias\_symm} prove the telescoping, positivity and symmetry for an arbitrary sequence $c_i$ in place of $\psi((n-i+1)/2)$, assuming only that the sequence is strictly antitone for positivity. The same statements with $n-1$ (demeaning) or $n-k$ (regression on $k$ common regressors) follow because the residual cross-product matrix is then $\mathcal W_{p+r}(n-k,\Sigma)$, and $I$ is unaffected by the normalisation of $S$.
+
+\subsection*{Null law}
+
+Under $\Sigma_{12}=0$, condition on the second data block $X_2$ and let $P_2$ be the projection onto its column space. Write $E=X_1^\top(I-P_2)X_1$ and $H=X_1^\top P_2X_1$. Given $X_2$, the rows of $X_1$ are independent $\N(0,\Sigma_{11})$, so $E\sim\mathcal W_p(n-r,\Sigma_{11})$ and $H\sim\mathcal W_p(r,\Sigma_{11})$ are independent, and their law does not depend on $X_2$. Since $\det S=\det S_{22}\det(S_{11}-S_{12}S_{22}^{-1}S_{21})$ and $n(S_{11}-S_{12}S_{22}^{-1}S_{21})=E$, $nS_{11}=E+H$, we obtain
+\[
+ \Lambda=\frac{\det S}{\det S_{11}\det S_{22}}=\frac{\det E}{\det(E+H)},
+\]
+which is Wilks' $\Lambda(p,n-r,r)$. Applying the Bartlett decomposition to $E+H$ and transforming shows that $\Lambda\stackrel d=\prod_{i=1}^p\beta_i$ with independent $\beta_i\sim\Beta((n-r-i+1)/2,r/2)$ \citep[Ch.~8]{anderson2003introduction}. The moments of $\hat I=-\tfrac12\log\Lambda$ follow from the log-Beta moments. Telescoping again shows that $\tfrac12\sum_{i\le p}[\psi((n-i+1)/2)-\psi((n-r-i+1)/2)]=B_n(p,r)$.
+
+\subsection*{Proportional limits}
+
+Let $p/n\to c_1$, $r/n\to c_2$, $c_1+c_2<1$. From the telescoping form and $\psi(x)-\psi(y)=\log(x/y)+O(1/\min(x,y))$,
+\[
+ \frac{2B_n(p,r)}n=\frac1n\sum_{i=1}^r\log\frac{n-i+1}{n-p-i+1}+O\Bigl(\frac1n\Bigr)\to\int_0^{c_2}\bigl[\log(1-u)-\log(1-c_1-u)\bigr]\dd u.
+\]
+With $\int_0^{c_2}\log(1-u)\,\dd u=-(1-c_2)\log(1-c_2)-c_2$ and $\int_0^{c_2}\log(1-c_1-u)\,\dd u=(1-c_1)\log(1-c_1)-(1-c_1-c_2)\log(1-c_1-c_2)-c_2$, the limit is $2\kappa(c_1,c_2)$. In the same way, $\psi'(x)=1/x+O(x^{-2})$ gives
+\begin{multline*}
+ V_n(p,r)=\frac12\sum_{i=1}^p\Bigl[\frac1{n-r-i+1}-\frac1{n-i+1}\Bigr]+O\Bigl(\frac1n\Bigr)\\
+ \to\frac12\int_0^{c_1}\Bigl[\frac1{1-c_2-u}-\frac1{1-u}\Bigr]\dd u=\nu(c_1,c_2).
+\end{multline*}
+Under independence, $\hat I-B_n$ is a sum of $p$ independent centred variables $-\tfrac12(\log\beta_i-\E\log\beta_i)$. Each has variance $O(1/n)$ and absolute third moment $O(n^{-3/2})$, uniformly in $i$, because $\beta_i$ has both shape parameters of order $n$ and $\log\beta_i$ is approximately normal with variance $\psi'(a)-\psi'(a+b)\asymp1/n$. Lyapunov's condition holds with ratio $O(pn^{-3/2})/O(1)^{3/2}=O(n^{-1/2})$, which gives the central limit theorem. For general $\Sigma$, each of the three log-determinants in $\hat I$ has variance $O(1)$ by \eqref{eq:logdet} and \eqref{eq:phi}, so $\Var\hat I=O(1)$ by the Cauchy--Schwarz inequality. Hence $(\hat I-\E\hat I)/n\to0$ in $L^2$, and $\E\hat I/n=I/n+B_n/n\to I/n+\kappa$.
+
+\subsection*{Logarithmic moment of the Wachter law}
+
+Under independence the previous step gives $\hat I/n\to\kappa(c_1,c_2)$ in probability. On the other hand $\hat I/n=-\tfrac p{2n}\int\log(1-x)\,\hat F_p(\dd x)$. By \citet{wachter1980limiting}, $\hat F_p$ converges weakly almost surely to the law with density \eqref{eq:wachter}, which has no atoms when $c_1\le c_2$ and $c_1+c_2<1$. The largest squared sample canonical correlation converges almost surely to $\omega_+$ \citep{johnstone2008multivariate,bao2019canonical}, and $\omega_+<1$ because
+\[
+ 1-\omega_+=(1-c_1)(1-c_2)+c_1c_2-2\sqrt{c_1c_2(1-c_1)(1-c_2)}=\Bigl(\sqrt{(1-c_1)(1-c_2)}-\sqrt{c_1c_2}\Bigr)^2>0,
+\]
+where the last inequality is strict because $(1-c_1)(1-c_2)-c_1c_2=1-c_1-c_2>0$. Therefore, with probability tending to one, all $\hat\rho_k^2$ lie in $[0,(1+\omega_+)/2]$, on which $\log(1-x)$ is bounded and continuous. Weak convergence then gives $\int\log(1-x)\,\hat F_p(\dd x)\to\int\log(1-x)\,w_{c_1,c_2}(x)\,\dd x$. Equating the two limits of $\hat I/n$ yields the theorem.
+
+\subsection*{Information costs and portfolio ratios}
+
+For the reverse divergence, $\E\tr(\Sigma^{-1}S)=N$ and $\E\log\det(\Sigma^{-1}S)=\ell_n(N)$. For the forward divergence, $\E S^{-1}=n\Sigma^{-1}/(n-N-1)$ for $n>N+1$ \citep[Ch.~3]{muirhead1982aspects}, so $\E\tr(S^{-1}\Sigma)=Nn/(n-N-1)$, and $\E\log\det(S^{-1}\Sigma)=-\ell_n(N)$. The limits follow from $\ell_n(N)/N\to\varphi(q)$ and $n/(n-N-1)\to(1-q)^{-1}$.
+
+For the minimum-variance portfolio, whitening reduces the problem to $\Sigma=I$ with $a=\Sigma^{-1/2}\one$, and both ratios are invariant to the scale of $a$ and to rotations, so we may take $a=e_1$ and $W\sim\mathcal W_N(n,I)$, $S=W/n$. Then $R_{\rm in}/R=1/(n\,e_1^\top W^{-1}e_1)$ and $1/e_1^\top W^{-1}e_1=w_{11}-w_{12}^\top W_{22}^{-1}w_{21}\sim\chi^2_{n-N+1}$ \citep[Ch.~3]{muirhead1982aspects}, which gives $\E R_{\rm in}/R=(n-N+1)/n$. For the out-of-sample ratio, $R_{\rm out}/R=e_1^\top W^{-2}e_1/(e_1^\top W^{-1}e_1)^2$. With $V=W^{-1}$, the block inverse formula gives $V_{21}/V_{11}=-W_{22}^{-1}w_{21}$, so the ratio equals $1+\|W_{22}^{-1}w_{21}\|^2$. Given $W_{22}$, $w_{21}\sim\N(0,W_{22})$, so $\E[\|W_{22}^{-1}w_{21}\|^2\mid W_{22}]=\tr W_{22}^{-1}$. Since $W_{22}\sim\mathcal W_{N-1}(n,I)$, $\E\tr W_{22}^{-1}=(N-1)/(n-N)$, which gives $\E R_{\rm out}/R=1+(N-1)/(n-N)=(n-1)/(n-N)$.
+
+\subsection*{Value of information}
+
+Let $m=\E[v\mid s]$ and $\Sigma_{v|s}=\Var(v\mid s)$. Conditional on $s$, terminal wealth under the position $x$ is normal with mean $w_0+x^\top(m-p)$ and variance $x^\top\Sigma_{v|s}x$, so $\E[-e^{-\gamma w}\mid s]=-\exp\{-\gamma w_0-\gamma x^\top(m-p)+\tfrac{\gamma^2}2x^\top\Sigma_{v|s}x\}$. This is maximised at $x^*=(\gamma\Sigma_{v|s})^{-1}(m-p)$, with value $-\exp\{-\gamma w_0-\tfrac12(m-p)^\top\Sigma_{v|s}^{-1}(m-p)\}$. Ex ante, $y=m-p\sim\N(c,B)$ with $c=\mu-p$ and $B=\Var(m)=\Sigma_v-\Sigma_{v|s}$ by the law of total variance. For $A$ positive definite and $B$ positive semidefinite, completing the square gives
+\[
+ \E e^{-\frac12y^\top Ay}=\det(I+BA)^{-1/2}\exp\bigl\{-\tfrac12c^\top(A^{-1}+B)^{-1}c\bigr\}.
+\]
+To see this, assume first that $B$ is invertible. The exponent of the integrand is $-\tfrac12[y^\top Ay+(y-c)^\top B^{-1}(y-c)]$. Its Gaussian integral produces the factor $\det(B)^{-1/2}\det(A+B^{-1})^{-1/2}=\det(I+BA)^{-1/2}$. The residual quadratic form is $c^\top[B^{-1}-B^{-1}(A+B^{-1})^{-1}B^{-1}]c=c^\top(A^{-1}+B)^{-1}c$ by the Woodbury identity. The general case follows by continuity. With $A=\Sigma_{v|s}^{-1}$, $I+BA=\Sigma_v\Sigma_{v|s}^{-1}$ and $A^{-1}+B=\Sigma_v$, so
+\[
+ U_s=-e^{-\gamma w_0}\det(\Sigma_v\Sigma_{v|s}^{-1})^{-1/2}\exp\bigl\{-\tfrac12(\mu-p)^\top\Sigma_v^{-1}(\mu-p)\bigr\}=U_\varnothing\,e^{-I(v;s)},
+\]
+since $U_\varnothing$ is the same expression with $\Sigma_{v|s}=\Sigma_v$. Paying $c$ for the signal multiplies $U_s$ by $e^{\gamma c}$, so indifference holds at $c=I(v;s)/\gamma$. If $s$ is replaced by $Ts$ with $T$ invertible, then $\Sigma_{v|s}$ is unchanged, and so is the value.
+
+\subsection*{Matrix Ornstein--Uhlenbeck information rate}
+
+The coordinates $\{H_{ij}\}_{i\le j}$ of \eqref{eq:mou} are independent scalar Ornstein--Uhlenbeck processes with drift $-aH_{ij}$ and diffusion coefficients $N^{-1/2}$ (off-diagonal) and $(2/N)^{1/2}$ (diagonal). For linear drifts the Girsanov density is a true martingale on finite horizons \citep{sarkka2019applied}, and the relative entropy between the path laws with drifts $-aH$ and $-bH$, under the law with drift $-aH$, is
+\[
+ \KL=\frac12\E_a\int_0^T\Bigl[\sum_{i<j}\frac{(b-a)^2H_{ij}^2}{1/N}+\sum_i\frac{(b-a)^2H_{ii}^2}{2/N}\Bigr]\dd t
+ =\frac N4(b-a)^2\int_0^T\E_a\tr H_t^2\,\dd t,
+\]
+because $\tr H^2=2\sum_{i<j}H_{ij}^2+\sum_iH_{ii}^2$. At stationarity, $\E H_{ij}^2=1/(2aN)$ for $i\ne j$ and $\E H_{ii}^2=1/(aN)$, so $\E\tr H^2=(N+1)/(2a)$, as certified by the Lean theorem \texttt{mou\_trace\_moment}. For the eigenvalue process, the Dyson system \eqref{eq:dyson} has non-colliding solutions for the orthogonal class, and the two regimes share the diffusion $\sqrt{2/N}$ and the repulsion term. The drift difference is $(b-a)\lambda_i$, so Girsanov gives $\tfrac12\E_a\int\sum_i(b-a)^2\lambda_i^2/(2/N)\,\dd t$, which is the same quantity because $\sum_i\lambda_i^2=\tr H^2$. The Lean theorems \texttt{mou\_rate\_closed}, \texttt{mou\_eigen\_closed} and \texttt{mou\_eigen\_sufficient} certify the algebra. The stationary laws of the two regimes are centred Gaussian on the $N(N+1)/2$ independent coordinates with variance ratio $b/a$, which gives the initial divergence $\tfrac{N(N+1)}4[b/a-1-\log(b/a)]$.
+
+\subsection*{The forced Burgers equation}
+
+Let $f_z(\lambda)=(z-\lambda)^{-1}$, so $g_t=N^{-1}\sum_if_z(\lambda_i)$ with $f_z'=(z-\lambda)^{-2}$ and $f_z''=2(z-\lambda)^{-3}$. It\^o's formula and \eqref{eq:dyson} give
+\[
+ \dd g_t=\frac1N\sum_if_z'(\lambda_i)\Bigl[\frac1N\sum_{j\ne i}\frac1{\lambda_i-\lambda_j}-a\lambda_i\Bigr]\dd t+\frac1{N^2}\sum_if_z''(\lambda_i)\,\dd t+\dd M_t,
+\]
+with a martingale $M$ whose quadratic variation is $O(N^{-2})$. Symmetrising the double sum and using
+\[
+ \frac{f_z'(\lambda_i)-f_z'(\lambda_j)}{\lambda_i-\lambda_j}=\frac1{(z-\lambda_i)(z-\lambda_j)^2}+\frac1{(z-\lambda_i)^2(z-\lambda_j)}
+\]
+gives $N^{-2}\sum_{i\ne j}(z-\lambda_i)^{-2}(z-\lambda_j)^{-1}=-g\,\partial_zg+O(N^{-1})$, since $\partial_zg=-N^{-1}\sum_i(z-\lambda_i)^{-2}$. The confinement term is $-aN^{-1}\sum_i\lambda_i(z-\lambda_i)^{-2}=a\,\partial_z(zg)$, because $\partial_z(zg)=N^{-1}\sum_i[(z-\lambda_i)^{-1}-z(z-\lambda_i)^{-2}]=-N^{-1}\sum_i\lambda_i(z-\lambda_i)^{-2}$. The It\^o term is $O(N^{-1})$. Letting $N\to\infty$ yields \eqref{eq:burgers}.

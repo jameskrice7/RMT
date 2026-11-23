@@ -1,0 +1,91 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{graphicx}
+\usepackage[margin=1in]{geometry}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{xcolor}
+\usepackage[font=small,labelfont=bf,margin=0.5cm]{caption}
+\usepackage[authoryear,round]{natbib}
+\usepackage{listings}
+\usepackage[section]{placeins}
+\usepackage[colorlinks=true,linkcolor={blue!45!black},citecolor={blue!45!black},urlcolor={blue!55!black}]{hyperref}
+
+\definecolor{tabshade}{RGB}{238,243,249}
+\setlength{\parskip}{0.35em}
+\renewcommand{\arraystretch}{1.12}
+
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\N}{\mathcal{N}}
+\newcommand{\KL}{\mathrm{KL}}
+\newcommand{\tr}{\operatorname{tr}}
+\newcommand{\Var}{\operatorname{Var}}
+\newcommand{\Cov}{\operatorname{Cov}}
+\newcommand{\half}{\tfrac12}
+\newcommand{\dd}{\mathrm{d}}
+\newcommand{\one}{\mathbf{1}}
+\DeclareMathOperator{\diag}{diag}
+\DeclareMathOperator{\Imag}{Im}
+\DeclareMathOperator{\Beta}{Beta}
+
+\theoremstyle{plain}
+\newtheorem*{proposition*}{Proposition}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem*{corollary*}{Corollary}
+\newtheorem*{lemma*}{Lemma}
+\theoremstyle{remark}
+\newtheorem*{remark*}{Remark}
+
+\lstdefinelanguage{lean}{
+  keywords={theorem,def,abbrev,namespace,end,by,fun,let,in,match,with,where,induction,cases,intro,have,show,rw,simp,grind,decide,omega,exact,apply,unfold,constructor},
+  sensitive=true, comment=[l]{--}, morecomment=[s]{/-}{-/}, string=[b]"}
+\lstset{language=lean, basicstyle=\ttfamily\footnotesize, keywordstyle=\color{blue!50!black}\bfseries,
+  commentstyle=\color{gray}\itshape, columns=fullflexible, keepspaces=true, frame=lines,
+  framesep=4pt, xleftmargin=6pt, breaklines=true, literate={ψ}{{$\psi$}}1 {Σ}{{$\Sigma$}}1 {≤}{{$\le$}}1 {≠}{{$\neq$}}1 {→}{{$\to$}}1 {∀}{{$\forall$}}1 {τ}{{$\tau$}}1 {₁}{{$_1$}}1 {₂}{{$_2$}}1 {ℓ}{{$\ell$}}1 {λ}{{$\lambda$}}1 {μ}{{$\mu$}}1 {⁻¹}{{$^{-1}$}}1 {↦}{{$\mapsto$}}1 {·}{{$\cdot$}}1 {×}{{$\times$}}1}
+
+\input{generated/numbers}
+
+\title{Spurious Information in Large Markets:\\[0.3em]
+\large Random Matrix Laws for Entropy, Mutual Information and the Value of Information}
+\author{James K Rice\thanks{PhD Candidate, University of Essex; \href{mailto:james.k.rice@essex.ac.uk}{james.k.rice@essex.ac.uk}. Replication materials, including the Lean formalization, are available at \url{https://github.com/jameskrice7/RMT}.}}
+\date{November 2026}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\noindent Entropy, Kullback--Leibler divergence and mutual information have become standard currencies for measuring how much one set of financial variables reveals about another. In large cross-sections they are almost always computed from sample covariance matrices, and the noise in those matrices is the object of random matrix theory. This paper develops the random matrix theory of Gaussian information functionals and applies it to markets. I show that the plug-in mutual information between two blocks of $p$ and $r$ variables estimated from $n$ observations has an exact expected excess, the \emph{spurious information}, that is a digamma telescope independent of the true dependence. Under independence its law is that of a product of Beta variables. In the proportional regime it grows linearly in $n$ at the rate $\kappa(c_1,c_2)=\tfrac12[(1-c_1-c_2)\log(1-c_1-c_2)-(1-c_1)\log(1-c_1)-(1-c_2)\log(1-c_2)]$ with an order-one variance. The same quantity is a linear spectral statistic of the Jacobi ensemble, which yields a closed form for the logarithmic moment of Wachter's law. Spurious information increases strictly whenever uninformative coordinates are added. In a CARA--Gaussian economy the certainty-equivalent value of a signal equals mutual information divided by risk aversion, so these results translate one for one into a spurious value of information. The canonical-correlation phase transition then defines a frontier of minimum detectable information. For correlation dynamics I show that the Dyson eigenvalue process of a matrix Ornstein--Uhlenbeck market is informationally sufficient for its mean-reversion rate and carries an information rate of order $N^2$. Monte Carlo experiments confirm every exact and limiting formula. On daily returns of 49 US industry portfolios from 1990 to 2026, I document the market mode, the reliability of sector eigenvectors implied by the BBP transition, the out-of-sample cost of noise dressing, and an information linkage between carbon-intensive and financial industries that survives exact bias correction and conditioning on the market. Selected algebraic and combinatorial steps are machine-checked in Lean~4.
+\end{abstract}
+
+\noindent\textbf{Keywords.} Random matrix theory, Marchenko--Pastur law, Jacobi ensemble, Wachter law, mutual information, Kullback--Leibler divergence, value of information, Dyson Brownian motion, econophysics, covariance cleaning.
+
+\noindent\textbf{JEL codes.} C55, C58, D80, D83, G11, G14.
+
+\noindent\textbf{MSC 2020.} 60B20, 62H20, 94A17, 91G10.
+
+\input{sections/introduction}
+\input{sections/preliminaries}
+\input{sections/information_laws}
+\input{sections/value_of_information}
+\input{sections/dynamics}
+\input{sections/numerics}
+\input{sections/application}
+\input{sections/discussion}
+
+\FloatBarrier
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\clearpage
+\appendix
+\input{sections/appendix_proofs}
+\input{sections/appendix_lean}
+\input{sections/appendix_tables}
+
+\end{document}

@@ -1,0 +1,155 @@
+key,type,doi,status,note
+wigner1955characteristic,article,10.2307/1970079,ok,
+wigner1958distribution,article,10.2307/1970008,ok,
+dyson1962brownian,article,10.1063/1.1703862,ok,
+marchenko1967distribution,article,10.1070/SM1967v001n04ABEH001994,ok,
+wachter1980limiting,article,10.1214/aos/1176345134,ok,
+geman1980limit,article,10.1214/aop/1176994775,ok,
+bai1993limit,article,10.1214/aop/1176989118,ok,
+silverstein1995empirical,article,10.1006/jmva.1995.1051,ok,
+bai2004clt,article,10.1214/aop/1078415845,ok,
+bai2010spectral,book,10.1007/978-1-4419-0661-8,ok,
+mehta2004random,book,,check,search hit doi=10.1016/b978-0-12-488051-1.50025-1 title sim 0.62: 'bordered matrices'; year 1991
+anderson2010introduction,book,10.1017/CBO9780511801334,check,year 2009
+tao2012topics,book,10.1090/gsm/132,ok,
+forrester2010log,book,,ok,search hit doi=10.1515/9781400835416
+akemann2011oxford,book,10.1093/oxfordhb/9780198744191.001.0001,check,year 2015
+erdos2017dynamical,book,10.1090/cln/028,ok,
+livan2018introduction,book,10.1007/978-3-319-70885-0,check,title sim 0.75: 'introduction to random matrices'
+potters2020first,book,10.1017/9781108768900,check,title sim 0.62: 'a first course in random matrix theory'
+couillet2022random,book,10.1017/9781009128490,ok,
+edelman2005random,article,10.1017/S0962492904000236,ok,
+dumitriu2002matrix,article,10.1063/1.1507823,ok,
+tracy1994level,article,10.1007/BF02100489,ok,
+tracy1996orthogonal,article,10.1007/BF02099545,ok,
+johnstone2001distribution,article,10.1214/aos/1009210544,ok,
+johnstone2008multivariate,article,10.1214/08-AOS605,ok,
+collins2005product,article,10.1007/s00440-005-0428-5,ok,
+chan1992wigner,article,10.1007/BF01195231,ok,
+rogers1993interacting,article,10.1007/BF01196734,ok,
+bru1991wishart,article,10.1007/BF01259552,ok,
+allez2012eigenvector,article,10.1103/PhysRevE.86.046202,ok,
+gourieroux2009wishart,article,10.1016/j.jeconom.2008.12.016,ok,
+voiculescu1991limit,article,10.1007/BF01245072,ok,
+voiculescu1992free,book,10.1090/crmm/001,ok,
+nica2006lectures,book,10.1017/CBO9780511735127,ok,
+mingo2017free,book,10.1007/978-1-4939-6942-5,ok,
+stanley1999enumerative,book,10.1017/CBO9780511609589,ok,
+baik2005phase,article,10.1214/009117905000000233,ok,
+baik2006eigenvalues,article,10.1016/j.jmva.2005.08.003,ok,
+paul2007asymptotics,article,,check,search hit doi=10.1214/16-aos1487 year 2017; volume 45; page 1342
+benaych2011eigenvalues,article,10.1016/j.aim.2011.02.007,ok,
+bloemendal2016principal,article,10.1007/s00440-015-0616-x,check,year 2015
+knowles2017anisotropic,article,10.1007/s00440-016-0730-4,check,year 2016
+donoho2018optimal,article,10.1214/17-AOS1601,ok,
+gavish2014optimal,article,10.1109/TIT.2014.2323359,check,title sim 0.53: 'the optimal hard threshold for singular values is &lt;inline-formula&g'
+bao2019canonical,article,10.1214/18-AOS1704,ok,
+yang2015independence,article,10.1214/14-AOS1284,ok,
+bai2009corrections,article,10.1214/09-AOS694,ok,
+jiang2013central,article,10.1214/13-AOS1134,ok,
+cai2015law,article,10.1016/j.jmva.2015.02.003,ok,
+misra2005estimation,article,10.1016/j.jmva.2003.10.003,ok,
+ahmed1989entropy,article,10.1109/18.30996,ok,
+muirhead1982aspects,book,10.1002/9780470316559,ok,
+anderson2003introduction,book,,check,search hit doi=10.2307/2531310 year 1985
+james1961estimation,incollection,,check,search hit doi=10.1007/978-1-4612-0919-5_29 title sim 0.61: 'introduction to james and stein (1961) estimation with quadratic loss'; year 1992; page 437
+dey1985estimation,article,10.1214/aos/1176349756,ok,
+ledoit2003improved,article,10.1016/S0927-5398(03)00007-0,ok,
+ledoit2004well,article,10.1016/S0047-259X(03)00096-4,ok,
+ledoit2011eigenvectors,article,10.1007/s00440-010-0298-3,check,year 2010
+ledoit2012nonlinear,article,10.1214/12-AOS989,ok,
+ledoit2017nonlinear,article,10.1093/rfs/hhx052,ok,
+ledoit2020analytical,article,10.1214/19-AOS1921,ok,
+ledoit2022power,article,10.1093/jjfinec/nbaa007,check,year 2020
+bun2016rotational,article,10.1109/TIT.2016.2616132,ok,
+bun2017cleaning,article,10.1016/j.physrep.2016.10.005,ok,
+bickel2008regularized,article,10.1214/009053607000000758,ok,
+fan2013large,article,10.1111/rssb.12016,ok,
+engle2019large,article,10.1080/07350015.2017.1345683,check,year 2017
+engle2002dynamic,article,10.1198/073500102288618487,check,title sim 0.39: 'dynamic conditional correlation'
+laloux1999noise,article,10.1103/PhysRevLett.83.1467,ok,
+plerou1999universal,article,10.1103/PhysRevLett.83.1471,ok,
+laloux2000random,article,10.1142/S0219024900000255,check,volume 03
+plerou2002random,article,10.1103/PhysRevE.65.066126,ok,
+gopikrishnan2001quantifying,article,10.1103/PhysRevE.64.035106,ok,
+utsugi2004random,article,10.1103/PhysRevE.70.026110,ok,
+mantegna1999hierarchical,article,10.1007/s100510050929,ok,
+mantegna2000introduction,book,10.1017/CBO9780511755767,check,title sim 0.57: 'introduction to econophysics'; year 1999
+bouchaud2003theory,book,10.1017/CBO9780511753893,check,title sim 0.68: 'theory of financial risk and derivative pricing'
+bouchaud2011financial,incollection,,check,search hit doi=10.1093/oxfordhb/9780198744191.013.40 year 2015; page 823
+tumminello2010correlation,article,10.1016/j.jebo.2010.01.004,ok,
+kwapien2012physical,article,10.1016/j.physrep.2012.01.007,ok,
+munnix2012identifying,article,10.1038/srep00644,ok,
+schmitt2013non,article,10.1209/0295-5075/103/58003,ok,
+biroli2007top,article,10.1209/0295-5075/78/10001,ok,
+burda2005spectral,article,10.1103/PhysRevE.71.026111,ok,
+reigneron2011principal,article,10.1016/j.physa.2011.04.007,ok,
+pafka2002noisy,article,10.1140/epjb/e20020153,ok,
+pafka2003noisy,article,10.1016/S0378-4371(02)01499-1,ok,
+kondor2007noise,article,10.1016/j.jbankfin.2006.12.003,ok,
+elkaroui2010high,article,10.1214/10-AOS795,ok,
+bodnar2018estimation,article,10.1016/j.ejor.2017.09.028,ok,
+kan2007optimal,article,10.1017/S0022109000004129,ok,
+markowitz1952portfolio,article,10.1111/j.1540-6261.1952.tb01525.x,ok,
+elton1973estimating,article,10.1111/j.1540-6261.1973.tb01451.x,ok,
+michaud1989markowitz,article,10.2469/faj.v45.n1.31,ok,
+jagannathan2003risk,article,10.1111/1540-6261.00580,ok,
+demiguel2009optimal,article,10.1093/rfs/hhm075,check,year 2007
+kritzman2011principal,article,10.3905/jpm.2011.37.4.112,ok,
+billio2012econometric,article,10.1016/j.jfineco.2011.12.010,ok,
+diebold2014network,article,10.1016/j.jeconom.2014.04.012,ok,
+cont2001empirical,article,10.1080/713665670,ok,
+fama1997industry,article,10.1016/S0304-405X(96)00896-3,ok,
+french2026data,misc,,skipped,
+ross1976arbitrage,article,10.1016/0022-0531(76)90046-6,ok,
+chamberlain1983arbitrage,article,10.2307/1912275,ok,
+bai2002determining,article,10.1111/1468-0262.00273,ok,
+onatski2009testing,article,10.3982/ECTA6964,ok,
+onatski2010determining,article,10.1162/REST_a_00043,ok,
+ahn2013eigenvalue,article,10.3982/ECTA8968,ok,
+lettau2020factors,article,10.1093/rfs/hhaa020,ok,
+lettau2020estimating,article,10.1016/j.jeconom.2019.08.012,ok,
+pelger2020understanding,article,10.1111/jofi.12898,ok,
+aitsahalia2017using,article,10.1016/j.jeconom.2017.08.015,ok,
+kozak2020shrinking,article,10.1016/j.jfineco.2019.06.008,ok,
+kelly2024virtue,article,10.1111/jofi.13298,check,year 2023
+martin2022market,article,10.1016/j.jfineco.2021.10.006,ok,
+hastie2022surprises,article,10.1214/21-AOS2133,ok,
+bolton2021investors,article,10.1016/j.jfineco.2021.05.008,ok,
+engle2020hedging,article,10.1093/rfs/hhz072,ok,
+giglio2021climate,article,10.1146/annurev-financial-102620-103311,ok,
+pastor2022dissecting,article,10.1016/j.jfineco.2022.07.007,ok,
+battiston2017climate,article,10.1038/nclimate3255,ok,
+shannon1948mathematical,article,10.1002/j.1538-7305.1948.tb01338.x,ok,
+kullback1951information,article,10.1214/aoms/1177729694,ok,
+kelly1956new,article,10.1002/j.1538-7305.1956.tb03809.x,ok,
+chernoff1952measure,article,10.1214/aoms/1177729330,ok,
+blackwell1953equivalent,article,10.1214/aoms/1177729032,ok,
+cover2006elements,book,10.1002/047174882X,check,year 2005
+telatar1999capacity,article,10.1002/ett.4460100604,ok,
+tulino2004random,article,10.1561/0100000001,ok,
+paninski2003estimation,article,10.1162/089976603321780272,ok,
+kraskov2004estimating,article,10.1103/PhysRevE.69.066138,ok,
+belghazi2018mutual,inproceedings,,check,search hit doi=10.70675/77a49357z48d3z42a6z8c94z7358030694fa title sim 0.58: 'unsupervised side-channel analysis based on mutual information and its'
+mcallester2020formal,inproceedings,,check,"search hit doi=10.1093/gmo/9781561592630.article.48750 title sim 0.24: 'mcallester, david p(ark)'; year 2001"
+grossman1980impossibility,article,,check,search hit doi=10.2139/ssrn.2433662 title sim 0.54: 'informationally efficient markets in grossman and stiglitz (1980)'; year 2014
+hellwig1980aggregation,article,10.1016/0022-0531(80)90056-3,ok,
+verrecchia1982information,article,10.2307/1913389,ok,
+kyle1985continuous,article,10.2307/1913210,ok,
+akerlof1970market,article,10.2307/1879431,ok,
+stiglitz2000contributions,article,10.1162/003355300555015,ok,
+fama1970efficient,article,10.2307/2325486,ok,
+sims2003implications,article,10.1016/S0304-3932(03)00029-1,ok,
+matejka2015rational,article,10.1257/aer.20130047,ok,
+mackowiak2023rational,article,10.1257/jel.20211524,ok,
+vannieuwerburgh2010information,article,10.1111/j.1467-937X.2009.00583.x,ok,
+veldkamp2011information,book,,check,search hit doi=10.1515/9781400840496 year 2012
+kacperczyk2016rational,article,10.3982/ECTA11412,ok,
+farboodi2020long,article,10.1257/aer.20171349,ok,
+cabrales2013entropy,article,10.1257/aer.103.1.360,ok,
+kadan2019estimating,article,10.1093/rfs/hhy087,check,year 2018
+girsanov1960transforming,article,10.1137/1105027,ok,
+sarkka2019applied,book,10.1017/9781108186735,ok,
+li2020scalable,inproceedings,,check,search hit doi=10.1016/j.jde.2020.10.022 title sim 0.46: 'wong-zakai approximations and periodic solutions in distribution of di'; year 2021; volume 274; page 652
+rice2026sldi,misc,,skipped,
+demoura2021lean,inproceedings,10.1007/978-3-030-79876-5_37,ok,
